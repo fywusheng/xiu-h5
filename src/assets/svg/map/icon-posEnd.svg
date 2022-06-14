@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="61px" viewBox="0 0 52 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/人力资源社会保障局</title>
+    <defs>
+        <filter x="-18.2%" y="-16.0%" width="136.4%" height="132.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.423573831   0 0 0 0 0.446570659   0 0 0 0 0.573907382  0 0 0 0.201076267 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="小程序/H5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="路线导航页面备份-2" transform="translate(-79.000000, -240.000000)">
+            <g id="风景定位备份-4" transform="translate(79.000000, 240.500000)">
+                <g id="icon/人力资源社会保障局" filter="url(#filter-1)" transform="translate(4.333333, 0.000000)">
+                    <g id="编组">
+                        <path d="M21.6356734,0.0195097697 C33.5892141,0.0195097697 43.2514794,9.68263036 43.2514794,21.5683061 C43.2514794,29.5495268 36.757837,38.5408863 24.1024183,49.0755481 C22.6792319,50.2603812 20.592115,50.2603812 19.1689285,49.0755481 C6.5135099,38.5408863 0.0198674488,29.5495268 0.0198674488,21.5683061 C0.0198674488,9.68138175 9.68213271,0.0195097697 21.6356734,0.0195097697 Z" id="形状" fill="#F54743" fill-rule="nonzero"></path>
+                        <text id="终" font-family="PingFangSC-Medium, PingFang SC" font-size="24" font-weight="400" fill="#FFFFFF">
+                            <tspan x="10" y="31">终</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

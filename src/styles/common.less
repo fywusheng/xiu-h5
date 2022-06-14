@@ -1,0 +1,384 @@
+/*
+ * @Description: 页面通用样式
+ * @Version: v1.0.0
+ * @Autor: xyDideo
+ * @Date: 2020-06-01 09:16:39
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-07-28 17:49:14
+ */
+ @import "./animate.less";
+ @import "./normalize.less";
+ @import "./theme/theme-params.less";
+ 
+ .tac {
+   text-align: center !important;
+ }
+ 
+ .ml-4 {
+   margin-left: @space_base;
+ }
+ 
+ .ml-8 {
+   margin-left: @space_xs_8;
+ }
+ 
+ .ml-16 {
+   margin-left: @space_md_16;
+ }
+ 
+ .ml-24 {
+   margin-left: @space_lg_24;
+ }
+ 
+ .mt-24 {
+   margin-top: 24px;
+ }
+ 
+ .mb-10 {
+   margin-bottom: 10px;
+ }
+ 
+ .mb-20 {
+   margin-bottom: 20px;
+ }
+ .mg-16 {
+   margin: 16px;
+ }
+ .radius-12 {
+   border-radius: 12px;
+ }
+ .y-box-shadow {
+   box-shadow: 0 0 12px 0 rgba(96, 137, 180, 0.2);
+ }
+ 
+ .ft-12 {
+   font-size: 12px;
+ }
+ 
+ .ft-24 {
+   font-size: 24px;
+ }
+ 
+ .ft-26 {
+   font-size: 26px;
+ }
+ 
+ .ft-28 {
+   font-size: 28px;
+ }
+ 
+ .ft-30 {
+   font-size: 30px;
+ }
+ 
+ .ft-32 {
+   font-size: 32px;
+ }
+ 
+ .ft-34 {
+   font-size: 34px;
+ }
+ 
+ .ft-36 {
+   font-size: 36px;
+ }
+ 
+ .ft-38 {
+   font-size: 38px;
+ }
+ 
+ .ft-40 {
+   font-size: 40px;
+ }
+ 
+ .ft-44 {
+   font-size: 44px;
+ }
+ 
+ .ft-46 {
+   font-size: 46px;
+ }
+ 
+ .ft-48 {
+   font-size: 48px;
+ }
+ 
+ .ft-w {
+   font-weight: bold;
+ }
+ 
+ .pd-20 {
+   padding: @space_lg_24;
+ }
+ 
+ .pt-20 {
+   padding-top: @space_lg_24;
+ }
+ 
+ .pl-20 {
+   padding-left: @space_lg_24;
+ }
+ 
+ .pr-20 {
+   padding-right: @space_lg_24;
+ }
+ 
+ .pb-20 {
+   padding-bottom: @space_lg_24;
+ }
+ 
+ .flex {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .lh-22 {
+   line-height: 22px;
+ }
+ 
+ .lh-24 {
+   line-height: 24px;
+ }
+ 
+ .lh-26 {
+   line-height: 26px;
+ }
+ 
+ .lh-28 {
+   line-height: 28px;
+ }
+ 
+ .lh-30 {
+   line-height: 30px;
+ }
+ 
+ .lh-32 {
+   line-height: 32px;
+ }
+ 
+ .lh-34 {
+   line-height: 34px;
+ }
+ 
+ .lh-36 {
+   line-height: 36px;
+ }
+ 
+ .lh-38 {
+   line-height: 38px;
+ }
+ 
+ .lh-40 {
+   line-height: 40px;
+ }
+ 
+ .lh-42 {
+   line-height: 42px;
+ }
+ 
+ .lh-45 {
+   line-height: 45px;
+ }
+ 
+ .lh-48 {
+   line-height: 45px;
+ }
+ 
+ .lh-50 {
+   line-height: 50px;
+ }
+ 
+ .fr {
+   float: right;
+ }
+ 
+ .fl {
+   float: left;
+ }
+ 
+ .cf:after {
+   content: ".";
+   display: block;
+   height: 0;
+   clear: both;
+ }
+ 
+ .cf {
+   zoom: 1;
+ }
+ 
+ * {
+   box-sizing: border-box;
+ }
+ 
+ .divider-no-border {
+   height: 20px;
+   display: block;
+   clear: both;
+   width: 100%;
+   background-color: @main_bg_color;
+ }
+ 
+ .clearfix:after {
+   content: ".";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+ }
+ 
+ .clearfix {
+   *zoom: 1;
+   /*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+ }
+ 
+ // 一行省略号
+ .xz-ellipsis {
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+ }
+ 
+ // 两行省略号
+ .xz-ellipsis-2 {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+ }
+ 
+ .width-120 {
+   width: 120px;
+ }
+ 
+ // 公共css
+ .notes-btn {
+   width: 90%;
+   margin: auto;
+   padding-top: 30px;
+   padding-bottom: 30px;
+ }
+ // btitle 页面内部使用，非组件 class
+ .btitle {
+   padding: @space_xl_32 0 @space_sm_12 @space_lg_24;
+   color: @main_text_color;
+   font-size: 30px;
+   display: block;
+   font-weight: normal;
+   position: relative;
+   &:after {
+     content: "";
+     position: absolute;
+     width: 10px;
+     height: 10px;
+     background: @blue_color;
+     top: 78px;
+     left: 20px;
+   }
+ }
+ .btitle-gray {
+   background: @main_bg_color;
+ }
+ .onetitle {
+   font-size: 36px;
+   color: @main_text_color;
+ }
+ 
+ .line {
+   height: 20px;
+   background: @main_bg_color;
+ }
+ 
+ .margin-20 {
+   margin: 20px;
+ }
+ 
+ .color-c {
+   color: @four_text_color;
+ }
+ 
+ .color-main {
+   color: @main_color;
+ }
+ .color-danger {
+   color: @danger_color;
+ }
+ .color-success {
+   color: @success_color;
+ }
+ .color-warn {
+   color: @warn_color;
+ }
+ .color-main-text {
+   color: @main_text_color;
+ }
+ 
+ .color-999 {
+   color: @third_text_color;
+ }
+ 
+ .color-333 {
+   color: @main_text_color;
+ }
+ 
+ .tc {
+   text-align: center;
+ }
+ .tr {
+   text-align: right;
+ }
+ .color-fff {
+   color: @white_bg_color;
+ }
+ .y-lines {
+   height: 16px;
+   background: @main_bg_color;
+ }
+ 
+ //结果页面
+ .result-p {
+   margin-top: 40px;
+ 
+   p {
+     text-align: center;
+   }
+ 
+   .title1 {
+     font-size: 40px;
+     line-height: 60px;
+   }
+ 
+   .title2 {
+     font-size: 28px;
+     line-height: 50px;
+     color: @second_text_color;
+     padding: 20px;
+   }
+ 
+   .success_color {
+     color: @success_color;
+   }
+ }
+ .img-block{
+   width: 100%;
+   display:block;
+ }
+ .no-data{
+   width: 220px * @ratio;
+   margin:0 auto;
+   img{
+     width: 100%;
+     display: block;
+   }
+ }
+ .gradient-btn{
+  background: linear-gradient(144deg, #ff8800 0%, #ff5000 100%);
+  border-radius: 27px * @ratio;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px * @ratio;
+  line-height: 54px * @ratio;
+  text-align: center;
+ }
+ 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状结合</title>
+    <defs>
+        <filter x="-38.0%" y="-38.0%" width="176.1%" height="176.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.654901961   0 0 0 0 0.560784314   0 0 0 0 0.976470588  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="22.7147755%" y1="1.63155936%" x2="22.7147755%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#C7B6FF" offset="0%"></stop>
+            <stop stop-color="#A68EF9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="48.5303435%" x2="96.1004267%" y2="51.1571898%" id="linearGradient-3">
+            <stop stop-color="#FF7B1B" offset="0%"></stop>
+            <stop stop-color="#E14D31" offset="100%"></stop>
+        </linearGradient>
+        <path d="M37.3059524,38.7460317 L22.922619,38.7460317 C22.1007937,38.7460317 21.4345238,38.0797619 21.4345238,37.2579365 C21.4345238,36.4361111 22.1007937,35.7698413 22.922619,35.7698413 L37.3059524,35.7698413 C38.1277778,35.7698413 38.7940476,36.4361111 38.7940476,37.2579365 C38.7940476,38.0797619 38.127877,38.7460317 37.3059524,38.7460317 L37.3059524,38.7460317 Z" id="path-4"></path>
+    </defs>
+    <g id="我的" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="定稿（小程序版）" transform="translate(-167.000000, -532.000000)" fill-rule="nonzero">
+            <g id="编组-20" transform="translate(16.000000, 397.000000)">
+                <g id="宫格备份-2" transform="translate(115.000000, 124.000000)">
+                    <g id="119" filter="url(#filter-1)" transform="translate(36.000000, 11.000000)">
+                        <path d="M30.221627,7.43581349 L38.3593254,15.5733135 C38.9404493,16.1544485 38.9404493,17.0966427 38.3593254,17.6777778 L17.9162698,38.1206349 C17.7057309,38.4167409 17.3942231,38.6256829 17.040377,38.7081349 C16.9183532,38.7400794 16.7916667,38.7566468 16.6635913,38.7566468 C16.6045046,38.7566468 16.5454723,38.7530632 16.4868056,38.7460317 L8.51775794,38.7149802 C7.69722222,38.7118056 7.03412698,38.0450397 7.0355137,37.2246032 L7.04801587,29.2941468 C7.03024689,29.1325452 7.03892538,28.9691281 7.07371032,28.8103175 C7.14666872,28.4221119 7.37088943,28.078804 7.69702381,27.8559524 L28.1171627,7.43581349 C28.6982143,6.8546627 29.6404762,6.8546627 30.221627,7.43581349 Z" id="形状结合" fill="url(#linearGradient-2)"></path>
+                        <path d="M16.2388889,31.1440489 C15.844125,31.144563 15.4654439,30.9876778 15.1867063,30.7081349 C14.6055556,30.1270833 14.6055556,29.1848214 15.1867063,28.6036706 L21.9200397,21.8703373 C22.5010913,21.2891865 23.4433532,21.2891865 24.024504,21.8703373 C24.6056548,22.4513889 24.6056548,23.3936508 24.024504,23.9748016 L17.2911706,30.7081349 C17.0123839,30.9876649 16.6336785,31.1445455 16.2388889,31.1440489 L16.2388889,31.1440489 Z" id="路径" fill="#FFFFFF"></path>
+                        <polygon id="路径" fill="#725CF4" points="24.3137897 11.234127 34.5605159 21.4809524 32.4560516 23.5854167 22.2093254 13.3385913"></polygon>
+                        <g id="路径">
+                            <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                            <use fill="#725CF4" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

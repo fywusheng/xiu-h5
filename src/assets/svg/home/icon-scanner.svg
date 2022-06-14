@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="243px" height="244px" viewBox="0 0 243 244" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="一期UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="扫一扫" transform="translate(-66.000000, -268.000000)" fill="#F7852D">
+            <g id="编组" transform="translate(66.000000, 268.000000)">
+                <path d="M3,219 L3,240.999 L25,241 L25,244 L3,243.999 L3,244 L0,244 L0,219 L3,219 Z" id="形状结合"></path>
+                <path d="M3,0 L3,21.999 L25,22 L25,25 L3,24.999 L3,25 L0,25 L0,0 L3,0 Z" id="形状结合备份-2" transform="translate(12.500000, 12.500000) scale(1, -1) translate(-12.500000, -12.500000) "></path>
+                <path d="M221,219 L221,240.999 L243,241 L243,244 L221,243.999 L221,244 L218,244 L218,219 L221,219 Z" id="形状结合备份" transform="translate(230.500000, 231.500000) scale(-1, 1) translate(-230.500000, -231.500000) "></path>
+                <path d="M221,0 L221,21.999 L243,22 L243,25 L221,24.999 L221,25 L218,25 L218,0 L221,0 Z" id="形状结合备份-3" transform="translate(230.500000, 12.500000) scale(-1, -1) translate(-230.500000, -12.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

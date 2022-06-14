@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>录音_voice</title>
+    <g id="小程序/H5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页列表" transform="translate(-319.000000, -104.000000)">
+            <g id="录音_voice" transform="translate(319.000000, 104.000000)">
+                <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="23.5008" height="22.5216"></rect>
+                <rect id="矩形" fill="#999999" x="8.3232" y="1.8768" width="6.8544" height="12.6684" rx="3.4272"></rect>
+                <path d="M4.4064,10.7916 C4.4064,14.6785936 7.69440672,17.8296 11.7504,17.8296 C15.8063933,17.8296 19.0944,14.6785936 19.0944,10.7916" id="路径" stroke="#999999" stroke-width="1.9584" stroke-linecap="round" stroke-linejoin="round"></path>
+                <line x1="11.7504" y1="17.8296" x2="11.7504" y2="20.6448" id="路径" stroke="#999999" stroke-width="1.9584" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

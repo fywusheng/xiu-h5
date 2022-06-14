@@ -1,0 +1,1182 @@
+/*
+ * @Description: 重置vant官方组件样式定制ylz组件样式
+ * @Version: v1.0.0
+ * @Autor: xyDideo
+ * @Date: 2020-06-16 17:17:34
+ * @LastEditors: wjn
+ * @LastEditTime: 2021-04-06 15:22:38
+ */
+
+@import "./resetui.less";
+
+/**
+  说明： 先重置 styles/theme/resetui.less 文件，调整不了再此文件重置
+  说明： 先重置 styles/theme/resetui.less 文件，调整不了再此文件重置
+  说明： 先重置 styles/theme/resetui.less 文件，调整不了再此文件重置
+  */
+
+/************************* button 重置开始 *************************/
+.van-button {
+  border-radius: 2;
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  -ms-border-radius: 2;
+  -o-border-radius: 2;
+  &--round {
+    border-radius: 999px * @ratio !important;
+    -webkit-border-radius: 999px * @ratio !important;
+    -moz-border-radius: 999px * @ratio !important;
+    -ms-border-radius: 999px * @ratio !important;
+    -o-border-radius: 999px * @ratio !important;
+  }
+  &--large {
+    height: 50px * @ratio;
+    // width:323px * @ratio ;
+  }
+  // 中等按钮
+  &--normal {
+    width: auto;
+    height: 34px * @ratio;
+    line-height: 34px * @ratio;
+    padding-left: 24px * @ratio;
+    padding-right: 24px * @ratio;
+  }
+  // 小型按钮
+  &--small {
+    width: auto;
+    height: 28px * @ratio;
+    line-height: 28px * @ratio;
+    padding-left: 16px * @ratio;
+    padding-right: 16px * @ratio;
+  }
+}
+
+// 调整默认蓝色按钮点击颜色
+.van-button--info {
+  // background-color:@main_color;
+  // border-color: @main_color;
+  &::before {
+    ///点击后的效果
+    background-color: @active_blue_color;
+    border-color: @active_blue_color;
+  }
+  &:active::before {
+    opacity: 0.6;
+  }
+}
+// 调整幽灵蓝色按钮点击颜色
+.van-button--info.van-button--plain {
+  // color: @main_color;
+  // border-color: @main_color;
+  // background-color: @white_bg_color;
+  &::before {
+    //点击后的效果
+    background-color: @active_blue_color;
+    border-color: @active_blue_color;
+  }
+  &:active::before {
+    opacity: 0.1;
+  }
+}
+// 调整默认绿色按钮点击颜色
+.van-button.van-button--primary {
+  &::before {
+    background-color: @active_success_color;
+    border-color: @active_success_color;
+  }
+  &:active::before {
+    opacity: 0.4;
+  }
+}
+// 调整幽灵绿色按钮点击颜色
+.van-button.van-button--primary.van-button--plain {
+  &::before {
+    background-color: @success_color;
+    border-color: @success_color;
+  }
+  &:active::before {
+    opacity: 0.1;
+  }
+}
+// 调整默认橙色按钮点击颜色
+.van-button.van-button--warning {
+  &::before {
+    background-color: @active_warn_color;
+    border-color: @active_warn_color;
+  }
+  &:active::before {
+    opacity: 0.4;
+  }
+}
+// 调整幽灵橙色按钮点击颜色
+.van-button.van-button--warning.van-button--plain {
+  &::before {
+    background-color: @warn_color;
+    border-color: @warn_color;
+  }
+  &:active::before {
+    opacity: 0.1;
+  }
+}
+// 调整默认红色按钮点击颜色
+.van-button.van-button--danger {
+  &::before {
+    background-color: @active_danger_color;
+    border-color: @active_danger_color;
+  }
+  &:active::before {
+    opacity: 0.4;
+  }
+}
+// 调整幽灵红色按钮点击颜色
+.van-button.van-button--danger.van-button--plain {
+  // color: @danger_color;
+  // border-color: @danger_color;
+  // background-color: @white_bg_color;
+  &::before {
+    background-color: @danger_color;
+    border-color: @danger_color;
+  }
+  &:active::before {
+    opacity: 0.1;
+  }
+}
+
+.van-button--plain {
+  color: @main_color;
+  border-color: @main_color;
+}
+
+/************************* button 重置结束 *************************/
+
+/************************* checkbox 重置开始 *************************/
+.van-checkbox,
+.van-radio {
+  top: 3px * @ratio;
+  position: relative;
+}
+// @label_height: 44px * @ratio ;
+// .van-checkbox__label,
+// .van-radio__label {
+//   font-size: 14px * @ratio ;
+//   height: @label_height;
+//   line-height: @label_height;
+// }
+// .van-checkbox__label font,
+// .van-radio__label font {
+//   line-height: @label_height;
+// }
+// .van-checkbox__label span,
+// .van-radio__label span {
+//   line-height: @label_height;
+// }
+// .icon-radio-default {
+//   color: @four_text_color;
+// }
+// .icon-radio-choose {
+//   color: @blue_color;
+// }
+// .icon-check-active,
+// .icon-check {
+//   color: @blue_color;
+// }
+// .icon-checkbox-default {
+//   color: @four_text_color;
+// }
+// .icon-checkbox-checked {
+//   color: @blue_color;
+// }
+// .van-radio__icon .iconfont,
+// .van-checkbox__icon .iconfont {
+//   font-size: 22px * @ratio ;
+// }
+// .van-radio__icon .icon-check {
+//   font-size: 19px * @ratio ;
+// }
+/************************* checkbox 重置结束 *************************/
+
+/*************************  开关 vanSwitch 重置开始 *************************/
+
+/*************************  开关 vanSwitch 重置结束 *************************/
+
+/************************* search 重置开始 *************************/
+.van-search {
+  .van-field__body {
+    input {
+      color: @main_text_color;
+      caret-color: @main_color;
+    }
+    input::-webkit-input-placeholder {
+      /*WebKit browsers*/
+      color: @third_text_color;
+    }
+    /deep/.van-icon-clear,
+    .van-field__clear {
+      color: @four_text_color !important; // icon-清除
+    }
+  }
+}
+// 配合下拉搜索
+.dropdown-search {
+  .van-dropdown-menu {
+    height: 44px * @ratio;
+    &__title {
+      font-size: 14px * @ratio;
+    }
+    &__bar {
+      height: inherit;
+      box-shadow: none;
+    }
+    &:after {
+      border: none;
+    }
+  }
+  // 下拉icon右对齐
+  .van-dropdown-item__content {
+    .van-cell .van-icon {
+      text-align: right;
+      color: @blue_color;
+    }
+  }
+}
+/************************* search 重置结束 *************************/
+
+/************************* van-dropdown 下拉箭头全局大小修改 重置开始 *************************/
+.van-dropdown-menu__title {
+  font-size: 14px * @ratio;
+  &:after {
+    color: @third_text_color !important;
+    margin-top: -5px * @ratio !important;
+    border: 3px * @ratio solid !important;
+    border-color: transparent transparent currentColor currentColor !important;
+  }
+}
+.van-dropdown-menu__title--down::after {
+  margin-top: -1px * @ratio !important;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+// 解决部分页面出现 下拉选择勾勾没有右对齐
+.van-dropdown-item__option--active .van-dropdown-item__icon {
+  text-align: right !important;
+  color: @main_color !important;
+}
+.van-dropdown-menu {
+  &__bar {
+    height: 40px * @ratio;
+    box-shadow: none;
+  }
+}
+/*************************  van-dropdown 下拉箭头全局大小修改 重置结束 *************************/
+
+/************************* upload 重置开始 *************************/
+
+//上传文件图标换成加号
+.van-icon-photograph::before {
+  content: "\F0A2";
+}
+.van-uploader {
+  &__upload {
+    border: 1px * @ratio dashed @border_color;
+    background-color: #fff;
+    i::after {
+      content: "添加图片";
+      width: 60px * @ratio;
+      font-size: 14px * @ratio;
+      position: absolute;
+      left: 50%;
+      margin-left: -30px * @ratio;
+      text-align: center;
+      top: 28px * @ratio;
+      color: @third_text_color;
+    }
+  }
+  // 删除icon重置
+  &__preview-delete {
+    width: 14px * @ratio;
+    height: 14px * @ratio;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    top: 1px * @ratio;
+    right: 1px * @ratio;
+    &::before,
+    &::after {
+      content: "";
+      width: 8px * @ratio;
+      height: 1px * @ratio;
+      border-radius: 4px * @ratio;
+      -webkit-border-radius: 4px * @ratio;
+      -moz-border-radius: 4px * @ratio;
+      -ms-border-radius: 4px * @ratio;
+      -o-border-radius: 4px * @ratio;
+      background-color: #fff;
+      position: absolute;
+      top: 6px * @ratio;
+      left: 3px * @ratio;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+    }
+    &::after {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+    }
+  }
+}
+.van-icon.van-uploader__upload-icon {
+  font-size: 26px * @ratio;
+  position: relative;
+  top: -8px * @ratio;
+  color: @third_text_color;
+}
+
+/************************* upload 重置结束 *************************/
+
+/************************* step 重置开始 *************************/
+.van-stepper__minus,
+.van-stepper__plus {
+  width: 20px * @ratio;
+  height: 20px * @ratio;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: @main_color;
+  border-radius: 6px * @ratio;
+  border: 0;
+  &:active {
+    background-color: @main_color;
+    opacity: 0.7;
+  }
+}
+.van-stepper__minus--disabled,
+.van-stepper__plus--disabled {
+  color: #cecece;
+  background-color: #f5f7fa;
+  cursor: not-allowed;
+  &:active {
+    color: #cecece;
+    background-color: #f5f7fa;
+  }
+}
+
+/************************* step 重置结束 *************************/
+
+/************************* slider 重置开始 *************************/
+.van-slider__button {
+  // width: 12px * @ratio ;
+  // height: 12px * @ratio ;
+  border: 2px * @ratio solid @main_color;
+}
+/************************* slider 重置结束 *************************/
+
+/************************* picker 重置开始 *************************/
+.van-picker {
+  &__cancel {
+    color: @main_text_color;
+  }
+  &__confirm {
+    color: @main_color;
+  }
+  &__toolbar {
+    height: 48px * @ratio;
+    border-bottom: 1px * @ratio solid @second_border_color;
+  }
+}
+/************************* picker 重置结束 *************************/
+
+/************************* badge 重置开始 *************************/
+.van-info {
+  background-color: @danger_color;
+  font-size: 12px * @ratio;
+  line-height: 16px * @ratio;
+}
+/************************** badge 重置结束 *************************/
+
+/************************* tag 重置开始 *************************/
+.tag-disabled {
+  opacity: 0.5;
+}
+.van-tag {
+  border-radius: 999px * @ratio !important;
+  padding: 4px * @ratio 10px * @ratio;
+  text-align: center;
+  &__close {
+    width: 14px * @ratio;
+    height: 14px * @ratio;
+    background: @danger_color;
+    border-radius: 14px * @ratio;
+    position: absolute;
+    right: -4px * @ratio;
+    top: -6px * @ratio;
+    z-index: 99;
+    &::before,
+    &::after {
+      content: "";
+      width: 8px * @ratio;
+      height: 1px * @ratio;
+      border-radius: 4px * @ratio;
+      background-color: #fff;
+      position: absolute;
+      top: 6px * @ratio;
+      left: 3px * @ratio;
+      transform: rotate(45deg);
+    }
+    &::after {
+      transform: rotate(-45deg);
+    }
+    // 不可选中
+  }
+}
+
+/************************* tag 重置结束 *************************/
+
+/*************************  通告栏 NoticeBar 重置开始 *************************/
+.van-notice-bar__content {
+  display: block;
+  width: 100%;
+  // text-align: center;
+}
+.van-notice-bar__content /deep/.van-icon {
+  position: relative;
+  top: 3px * @ratio;
+}
+.notice-success {
+  color: @success_color;
+  background: @light_success_color;
+}
+.notice-danger {
+  color: @danger_color;
+  background: @light_danger_color;
+}
+.notice-warn {
+  color: @warn_color;
+  background: @light_warn_color;
+}
+/*************************  通告栏 NoticeBar 重置结束 *************************/
+
+/*************************  列表 list 重置开始 *************************/
+.van-cell {
+  background-color: #fff;
+  word-break: keep-all;
+  &__left-icon {
+    margin-right: 0px * @ratio;
+  }
+  .list-right-value {
+    color: @third_text_color;
+  }
+  .tip-wrap {
+    display: flex;
+    align-items: center;
+    height: 24px * @ratio;
+    .ignore-tip {
+      height: 24px * @ratio;
+      max-width: 60px * @ratio;
+      font-size: 14px * @ratio;
+      line-height: 24px * @ratio;
+      color: @third_text_color;
+      margin-left: 16px * @ratio;
+      word-break: keep-all;
+    }
+  }
+  // 统一icon颜色
+  .van-icon {
+    line-height: inherit;
+    text-align: left;
+  }
+  .van-icon-arrow,
+  .van-icon-arrow-down,
+  .van-icon-arrow-up,
+  .van-icon-arrow-left {
+    font-size: 12px * @ratio;
+    text-align: right;
+  }
+  .van-icon-clear {
+    color: @four_text_color;
+    font-size: 20px * @ratio;
+  }
+  .van-cell__label {
+    color: @third_text_color;
+  }
+  .van-cell__value {
+    .van-field__word-limit {
+      color: @four_text_color;
+    }
+  }
+  .cell-left-icon {
+    width: 19px * @ratio;
+    height: 19px * @ratio;
+    float: left;
+    margin-top: 3px * @ratio;
+    margin-right: 4px * @ratio;
+  }
+}
+
+/*************************  列表 list 重置结束 *************************/
+
+/************************* input 重置开始 *************************/
+// 新增的 class
+.ignore-explain {
+  font-size: 14px * @ratio;
+  display: inline-block;
+  color: @main_color;
+  margin-left: @space_md_16;
+}
+// 解决标题被（输入过长的）值覆盖问题
+.van-field__control--right {
+  padding-left: 20px * @ratio !important;
+}
+// 适用于左侧注释或者使用说明
+.field-ignore-tip {
+  .van-field__control--right {
+    padding-left: 48px * @ratio !important;
+  }
+}
+.van-field__label {
+  flex: none;
+  box-sizing: border-box;
+  width: 90px * @ratio;
+  &--center {
+    text-align: center;
+  }
+  &--right {
+    padding-right: 16px * @ratio;
+    text-align: right;
+  }
+}
+.van-field__value {
+  overflow: visible;
+}
+.van-field__body {
+  display: flex;
+  align-items: center;
+}
+.van-field__control {
+  font-size: 20px * @ratio;
+}
+.van-field__control::placeholder {
+  color: @third_text_color;
+}
+.van-field__control:disabled {
+  color: @third_text_color;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+.van-field__control:read-only {
+  cursor: default;
+}
+.van-field__control--center {
+  justify-content: center;
+  text-align: center;
+}
+.van-field__control--right {
+  justify-content: flex-end;
+  text-align: right;
+}
+.van-field__control--custom {
+  display: flex;
+  align-items: center;
+  min-height: 15px * @ratio;
+}
+.van-field__control[type="date"],
+.van-field__control[type="time"],
+.van-field__control[type="datetime-local"] {
+  min-height: 15px * @ratio;
+}
+.van-field__control[type="search"] {
+  -webkit-appearance: none;
+}
+.van-field__clear,
+.van-field__icon,
+.van-field__button,
+.van-field__right-icon {
+  flex-shrink: 0;
+}
+.van-field__button {
+  padding-left: 8px * @ratio;
+}
+.van-field__control--right::placeholder {
+  // color: @four_text_color;
+}
+.van-field__error-message {
+  // color: @danger_color;
+  font-size: 12px * @ratio;
+  text-align: left;
+}
+.van-field__error-message--center {
+  text-align: center;
+}
+.van-field__error-message--right {
+  text-align: right;
+}
+.van-field__word-limit {
+  margin-top: 4px * @ratio;
+  color: @second_text_color;
+  font-size: 12px * @ratio;
+  line-height: 16px * @ratio;
+  text-align: right;
+}
+.van-field__word-num--full {
+  color: @danger_color;
+}
+.van-field--error .van-field__control,
+.van-field--error .van-field__control::placeholder {
+  // color: @danger_color;
+  -webkit-text-fill-color: currentColor;
+}
+.van-field--min-height .van-field__control {
+  min-height: 60px * @ratio;
+}
+.disabled-label {
+  color: @third_text_color;
+}
+// 刷新验证码
+.ignore-btn-code {
+  padding-left: 12px * @ratio;
+  padding-right: 8px * @ratio;
+  background: @main_bg_color;
+  border-radius: 2px * @ratio;
+  height: 32px * @ratio;
+  margin-left: 8px * @ratio;
+  display: flex;
+  align-items: center;
+  border: none 0;
+  .icon-refresh {
+    margin-top: 0px * @ratio;
+    margin-left: 6px * @ratio;
+    display: inline-block;
+    margin-bottom: -3px * @ratio;
+    color: @second_text_color;
+    font-size: 18px * @ratio;
+  }
+}
+.van-field__control {
+  caret-color: @main_color;
+}
+/************************* input 重置结束 *************************/
+/*************************  calendar 重置开始 *************************/
+.van-calendar__footer {
+  .van-button--danger {
+    background-color: @main_color;
+    border-color: @main_color;
+  }
+}
+/*************************  calendar 重置开始 *************************/
+/*************************  card 重置开始 *************************/
+.panel-bg-block {
+  background-color: @main_bg_color;
+}
+.info-list {
+  &::after,
+  &::after {
+    border: none;
+  }
+  .card-list {
+    .status-block {
+      line-height: 20px * @ratio;
+    }
+  }
+  .van-panel-footer {
+    .van-cell {
+      padding: 0;
+    }
+  }
+}
+.card-list.van-cell {
+  height: 50px * @ratio;
+  padding-top: 14px * @ratio;
+  &:not(:last-child)::after {
+    border-bottom: 0 !important;
+  }
+  // 标题
+  .y-card-title {
+    position: relative;
+    top: -10px * @ratio;
+  }
+  .van-cell__title {
+    line-height: 24px * @ratio;
+    font-size: 16px * @ratio;
+    .card-title-icon {
+      display: inline-block;
+      position: relative;
+      top: 50%;
+      transform: translate(0, -50%);
+      -webkit-transform: translate(0, -50%);
+      -moz-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      -o-transform: translate(0, -50%);
+      margin-right: 8px * @ratio;
+    }
+  }
+}
+// 卡片内容
+.van-panel-content {
+  font-size: 14px * @ratio;
+  color: @second_text_color;
+  line-height: 20px * @ratio;
+  padding: 4px * @ratio 16px * @ratio 16px * @ratio 25px * @ratio;
+}
+
+.card-list-buttom {
+  text-align: right;
+  height: 36px * @ratio;
+  line-height: 25px * @ratio;
+  .van-button {
+    display: inline-block;
+  }
+}
+// 列表里面的 cell
+.card-list-cell {
+  padding-bottom: 12px * @ratio;
+  padding-left: 8px * @ratio;
+  margin-top: 8px * @ratio;
+  .van-cell {
+    height: 30px * @ratio;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: @second_text_color;
+    border-bottom: 0;
+    &::after {
+      border-bottom: 0;
+    }
+  }
+}
+
+.van-panel-footer {
+  font-size: 14px * @ratio;
+  color: @second_text_color;
+  line-height: 20px * @ratio;
+  padding-left: 10px * @ratio;
+  padding-top: 0px * @ratio;
+  padding-bottom: 0px * @ratio;
+}
+.padding-footer {
+  padding-top: 8px * @ratio;
+  padding-bottom: 8px * @ratio;
+}
+.van-panel-footer-arrow {
+  padding: 3px * @ratio 0 3px * @ratio 12px * @ratio;
+}
+.van-panel-footer-content {
+  font-size: 14px * @ratio;
+  color: @second_text_color;
+  line-height: 20px * @ratio;
+  padding-left: 12px * @ratio;
+}
+.card-list-round {
+  border-radius: 30px * @ratio;
+  margin: 32px * @ratio;
+  overflow: hidden;
+}
+.card-list-round-r {
+  // color: @main_text_color;
+}
+
+// title has label
+.card-list-title-label {
+  height: 68px * @ratio;
+  padding-top: 16px * @ratio !important;
+  margin-bottom: 10px * @ratio;
+  .van-cell__title {
+    margin-top: 4px * @ratio;
+  }
+  #v_header_title {
+    margin-bottom: 0 !important;
+    height: 24px * @ratio !important;
+    position: relative;
+    top: -8px * @ratio;
+  }
+  .van-cell__label {
+    font-size: 14px * @ratio;
+    color: @second_text_color;
+    margin-top: 0 !important;
+    padding-left: 8px * @ratio;
+  }
+  .tips {
+    font-size: 18px * @ratio !important;
+    color: @danger_color;
+  }
+}
+
+.card-list-assist.van-cell {
+  padding: 0 0 4px * @ratio 0;
+  &:not(:last-child)::after {
+    border: 0;
+  }
+}
+.card-list-assist {
+  .van-cell__title {
+    line-height: 24px * @ratio;
+    font-size: 14px * @ratio;
+  }
+}
+// has label
+.card-list-label {
+  .custom-title {
+    font-size: 14px * @ratio;
+    color: @second_text_color;
+  }
+  .van-cell__label {
+    font-size: 12px * @ratio;
+    color: @four_text_color;
+    margin-top: 0;
+  }
+}
+
+// has img
+.card-list-imgs {
+  padding-top: 12px * @ratio;
+  height: 72px * @ratio;
+  .van-cell__value {
+    color: @four_text_color;
+    font-size: 12px * @ratio;
+  }
+  .card-list-img-title {
+    span {
+      font-size: 18px * @ratio !important;
+    }
+    p {
+      line-height: 18px * @ratio;
+      font-size: 14px * @ratio;
+      color: @third_text_color;
+      margin: 0;
+    }
+  }
+  /deep/.van-cell__title {
+    height: 30px * @ratio;
+  }
+}
+
+.card-list-imgs-content {
+  padding: 12px * @ratio 16px * @ratio 16px * @ratio 12px * @ratio;
+  font-size: 14px * @ratio;
+  color: @second_text_color;
+}
+
+.card-list-imgs-content2 {
+  font-size: 14px * @ratio;
+  margin-bottom: 8px * @ratio;
+  margin-top: 4px * @ratio;
+  color: @second_text_color;
+  padding-left: 0;
+  .van-panel__footer {
+    padding: 0 !important;
+  }
+  .card-list {
+    padding: 0 !important;
+  }
+  .van-cell__value {
+    font-size: 12px * @ratio;
+    color: @four_text_color;
+  }
+}
+
+// round card 圆角的卡片
+.card-list-round {
+  border-radius: 12px * @ratio;
+  margin: 16px * @ratio;
+  background-color: #fff;
+  padding-bottom: 12px * @ratio;
+  box-shadow: 0 6px * @ratio 12px * @ratio 0 rgba(164, 174, 185, 0.16);
+  .van-cell:not(:last-child)::after {
+    border: 0;
+  }
+  .van-cell {
+    padding: 0px * @ratio 16px * @ratio;
+  }
+  .card-list-round-header {
+    height: 45px * @ratio;
+    color: @second_text_color;
+    margin-bottom: 10px * @ratio;
+    padding: 16px * @ratio 16px * @ratio 14px * @ratio;
+    &:not(:last-child)::after {
+      width: calc(100% - 32px * @ratio) !important;
+      border-bottom: 1px * @ratio dashed @border_color;
+    }
+    .van-cell__title {
+      font-size: 16px * @ratio;
+    }
+  }
+  .card-list-round-r-large {
+    font-size: 16px * @ratio;
+    color: @second_text_color;
+  }
+  .card-list-round-r-default-w {
+    font-size: 14px * @ratio;
+    color: @second_text_color;
+  }
+  .card-list-round-main {
+    .card-list-round-header {
+      margin-bottom: 0;
+      color: @blue_color !important;
+      padding: 12px * @ratio 16px * @ratio;
+      .van-cell__title {
+        font-size: 16px * @ratio;
+      }
+    }
+  }
+  .van-panel__content {
+    .van-cell__title {
+      color: @third_text_color;
+    }
+  }
+  .card-color-main {
+    color: @main_color;
+    .van-cell__title {
+      color: @main_color;
+    }
+  }
+  .card-color-second-text {
+    color: @second_text_color;
+    .van-cell__title {
+      color: @second_text_color;
+    }
+  }
+}
+.card-list-round-bottom {
+  .van-cell__title {
+    color: @main_text_color;
+  }
+  .card-list-round-header {
+    margin-bottom: 0;
+    padding-bottom: 8px * @ratio;
+  }
+  .van-panel__content {
+    .van-cell {
+      padding: 0 16px * @ratio;
+      color: @second_text_color;
+    }
+  }
+  .van-cell__title {
+    color: @second_text_color !important;
+  }
+  .card-list-round-bottom-border {
+    width: calc(100% - 32px * @ratio);
+    height: 1px * @ratio;
+    margin: 8px * @ratio 16px * @ratio 8px * @ratio 16px * @ratio;
+    border-bottom: 1px * @ratio dashed @second_border_color;
+  }
+}
+/*************************  通告栏 card 重置结束 *************************/
+
+/*************************  popup 弹出层 action-sheet 重置开始 *************************/
+.van-action-sheet {
+  // top description
+  &__description {
+    background-color: @main_bg_color;
+    font-size: 12px * @ratio !important;
+    color: @third_text_color !important;
+    text-align: left !important;
+    border-radius: 12px * @ratio 12px * @ratio 0 0;
+  }
+  &__item,
+  &__cancel {
+    height: 50px * @ratio;
+  }
+}
+.van-share-sheet {
+  // share-title
+  .van-share-sheet__title {
+    font-size: 16px * @ratio;
+  }
+  // top description - cancel
+  &__cancel {
+    color: #fff;
+    &:active {
+      color: @main_bg_color !important;
+    }
+    &::before,
+    &::after {
+      width: 16px * @ratio;
+      height: 2px * @ratio !important;
+      border-radius: 4px * @ratio;
+      background-color: @third_text_color !important;
+      content: "" !important;
+      color: @second_text_color;
+      position: absolute;
+      left: 50%;
+      bottom: 24px * @ratio;
+      margin-left: -8px * @ratio;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+    }
+    &::after {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+    }
+  }
+}
+
+/*************************  popup 弹出层 action-sheet 重置结束 *************************/
+
+/*************************  modal组件 重置开始 *************************/
+.van-popup {
+  &--bottom {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 12px * @ratio 12px * @ratio 0 0;
+  }
+  .pop-icon {
+    text-align: center;
+    p {
+      margin: 16px * @ratio 0 10px * @ratio 0px * @ratio;
+    }
+  }
+}
+//弹出窗modal
+.modeal-pop {
+  transition: all ease 0s;
+  padding: 10px * @ratio 0;
+  width: 270px * @ratio;
+  color: @main_text_color;
+  border-radius: 10px * @ratio;
+  .pop-container {
+    padding: 12px * @ratio 16px * @ratio;
+    .pop-title {
+      font-size: 18px * @ratio;
+      line-height: 25px * @ratio;
+      text-align: center;
+      margin-bottom: 12px * @ratio;
+    }
+    .pop-text,
+    .pop-text-2 {
+      font-size: 14px * @ratio;
+      line-height: 24px * @ratio;
+      padding-bottom: @space_sm_12;
+      text-align: left;
+    }
+    .pop-text-2 {
+      padding-top: 16px * @ratio;
+    }
+    .van-button {
+      margin-top: 10px * @ratio;
+      height: 40px * @ratio;
+      line-height: 40px * @ratio;
+    }
+    .van-col {
+      padding-top: 14px * @ratio;
+    }
+  }
+}
+.van-popup__close-icon {
+  color: @third_text_color;
+}
+/*************************  modal组件 重置结束 *************************/
+
+/*************************  tab 组件 重置开始 *************************/
+.large-tabs {
+  // background-color: #ccc;
+  .van-tabs__wrap {
+    height: 40px * @ratio !important;
+  }
+  .van-tabs__nav {
+    &--card {
+      border-radius: 25px * @ratio;
+      height: 40px * @ratio;
+    }
+    .van-tab {
+      font-size: 16px * @ratio;
+    }
+  }
+}
+.van-tabs__nav {
+  &--card {
+    border-radius: 4px * @ratio;
+    overflow: hidden;
+    border: 1px * @ratio solid @main_color;
+    .van-tab.van-tab--active {
+      background-color: @main_color;
+    }
+    .van-tab {
+      font-size: 14px * @ratio;
+      color: @main_color;
+      border-right: 1px * @ratio solid @main_color;
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+}
+//tab
+.van-tabs__line {
+  width: 20px * @ratio !important;
+  background-color: @main_color;
+}
+/deep/.van-tab {
+  font-size: 16px * @ratio;
+}
+/deep/.van-tabs__nav--card {
+  border-radius: 4px * @ratio;
+}
+.van-tabs__content {
+  // padding: 10px * @ratio 22px * @ratio ;
+  font-size: 16px * @ratio;
+}
+/*************************  tab 组件 重置结束 *************************/
+
+/*************************  tree-select 组件 重置开始 *************************/
+.van-tree-select__item--active {
+  color: @main_color;
+}
+/*************************  tree-select 组件 重置结束 *************************/
+
+/*************************  empty 组件 重置开始 *************************/
+
+.van-empty {
+  &__bottom {
+    width: 70%;
+    text-align: center;
+  }
+  .van-button--large {
+    height: 40px * @ratio;
+    line-height: 40px * @ratio;
+  }
+  .y-submit-title {
+    font-size: 16px * @ratio;
+    margin: 0 0 16px * @ratio 0;
+  }
+}
+/*************************  empty 组件 重置结束 *************************/
+
+/*************************  dialog 组件 重置开始 *************************/
+.van-dialog {
+  &__confirm,
+  &__cancel {
+    height: 48px * @ratio;
+    position: relative;
+    color: @main_color;
+  }
+}
+.show-btn-lines {
+  .van-dialog__footer {
+    display: block;
+  }
+  .van-dialog__confirm {
+    top: -48px * @ratio;
+    &::after {
+      border-bottom: 1px * @ratio solid @border_color;
+      transform: scale(0.5);
+    }
+  }
+  .van-dialog__cancel {
+    top: 48px * @ratio;
+  }
+}
+/*************************  dialog 组件 重置结束 *************************/

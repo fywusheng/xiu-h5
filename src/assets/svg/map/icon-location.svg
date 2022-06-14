@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="35px" viewBox="0 0 30 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/人力资源社会保障局</title>
+    <defs>
+        <filter x="-2.8%" y="-4.7%" width="105.6%" height="109.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0812109034 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-32.0%" y="-26.7%" width="164.0%" height="153.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.423573831   0 0 0 0 0.446570659   0 0 0 0 0.573907382  0 0 0 0.201076267 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="地图-2" transform="translate(-16.000000, -635.000000)" fill-rule="nonzero">
+            <g id="编组-6" filter="url(#filter-1)" transform="translate(0.000000, 587.000000)">
+                <g id="编组-5" transform="translate(16.000000, 48.000000)">
+                    <g id="icon/人力资源社会保障局" filter="url(#filter-2)" transform="translate(2.500000, 0.000000)">
+                        <g id="编组">
+                            <path d="M12.4821193,0.0114619897 C19.3783928,0.0114619897 24.9527766,5.68854533 24.9527766,12.6713798 C24.9527766,17.360347 21.2064444,22.6427707 13.9052414,28.8318845 C13.0841722,29.527974 11.8800663,29.527974 11.0589972,28.8318845 C3.75779417,22.6427707 0.0114619897,17.360347 0.0114619897,12.6713798 C0.0114619897,5.68781178 5.58584579,0.0114619897 12.4821193,0.0114619897 Z" id="形状" fill="#FF5B11"></path>
+                            <path d="M12.4821193,2.94573431 C7.62076364,2.94573431 3.67930238,6.88719558 3.67930238,11.7485512 C3.67930238,16.6099068 7.62076364,20.5513681 12.4821193,20.5513681 C17.3434749,20.5513681 21.2849362,16.6099068 21.2849362,11.7485512 C21.2849362,6.88719558 17.3434749,2.94573431 12.4821193,2.94573431 Z" id="路径" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

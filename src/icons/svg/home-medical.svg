@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>医保查询</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="92.1298574%" id="linearGradient-1">
+            <stop stop-color="#FFE0E1" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="92.1298574%" id="linearGradient-2">
+            <stop stop-color="#FFDA9B" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M67.6114286,56.8285714 C67.6114286,47.6543328 52.4760947,40.2171429 33.8057143,40.2171429 C15.1353338,40.2171429 0,47.6543328 0,56.8285714 C0,66.0028101 67.6114286,66.0028101 67.6114286,56.8285714 Z" id="path-3"></path>
+        <linearGradient x1="67.5652976%" y1="41.9146146%" x2="73.0360423%" y2="66.341453%" id="linearGradient-4">
+            <stop stop-color="#DA3136" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#DA3136" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="7.10542736e-13%" id="linearGradient-5">
+            <stop stop-color="#F98B8F" offset="0.0184755068%"></stop>
+            <stop stop-color="#FFDEDF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="16.2796924%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#FF8020" offset="0%"></stop>
+            <stop stop-color="#FF5318" offset="100%"></stop>
+        </linearGradient>
+        <path d="M16.0668317,8.58201775 C21.1609604,3.49668753 29.4201693,3.49668753 34.5142982,8.58201775 C39.6084199,13.667355 39.6084199,21.9123101 34.5142982,26.9976473 C29.9362469,31.5677913 22.801929,32.0307849 17.7059356,28.386628 L11.2621384,34.8191092 C10.3868974,35.6928398 8.9694528,35.6928398 8.09421181,34.8191092 C7.22092276,33.9473274 7.21970099,32.5326678 8.09148289,31.6593788 L8.09421181,31.6566499 L8.09421181,31.6566499 L14.5616623,25.200229 C11.0352011,20.124682 11.5369243,13.1041136 16.0668317,8.58201775 Z" id="path-7"></path>
+        <linearGradient x1="50%" y1="91.1719208%" x2="50%" y2="8.16431795%" id="linearGradient-8">
+            <stop stop-color="#FFC2C4" offset="0.0184755068%"></stop>
+            <stop stop-color="#FFEFEF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="30.5887004%" y1="100%" x2="30.5887004%" y2="11.8808485%" id="linearGradient-9">
+            <stop stop-color="#FF905F" offset="0%"></stop>
+            <stop stop-color="#FDAF5D" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15.1443878,8.16910506 C20.1877555,3.12573737 28.3646702,3.12573737 33.4080379,8.16910506 C38.4514055,13.2124728 38.4514055,21.3893874 33.4080379,26.432755 C28.903093,30.9376999 21.8979533,31.4186415 16.859174,27.8755802 L9.91423354,34.8201832 C9.04237643,35.6920403 7.62881678,35.6920403 6.75695967,34.8201832 C5.88510257,33.948326 5.88510257,32.5347665 6.75695967,31.6629094 L13.7016071,24.7180321 C10.1584974,19.679248 10.6394242,12.6740686 15.1443878,8.16910506 Z" id="path-10"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页5版备份-12" transform="translate(-28.000000, -690.000000)">
+            <g id="编组-4" transform="translate(16.000000, 557.000000)">
+                <g id="医保查询" transform="translate(12.000000, 133.000000)">
+                    <rect id="矩形" fill="#FFFFFF" fill-rule="nonzero" opacity="0" x="0" y="0" width="67.6114286" height="67.6114286"></rect>
+                    <g id="椭圆形备份" fill-rule="nonzero">
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                        <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                    </g>
+                    <polygon id="矩形" fill="url(#linearGradient-4)" fill-rule="nonzero" points="35.3861905 45.3810191 38.0807542 42.9492752 46.24 49.1542857 44.2971429 49.1542857"></polygon>
+                    <g id="编组-3" transform="translate(33.594286, 34.794286) scale(-1, 1) translate(-33.594286, -34.794286) translate(12.594286, 13.794286)">
+                        <rect id="矩形备份" fill="#FFFFFF" fill-rule="nonzero" opacity="0" x="0" y="0" width="41.5771429" height="41.5771429"></rect>
+                        <g id="形状结合备份" fill-rule="nonzero">
+                            <use fill="url(#linearGradient-5)" xlink:href="#path-7"></use>
+                            <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                        </g>
+                        <rect id="矩形" fill="#F98C8F" fill-rule="nonzero" x="8.20099607" y="34.329751" width="1.71648755" height="1.14432503"></rect>
+                        <g id="形状结合" fill-rule="nonzero">
+                            <use fill="url(#linearGradient-8)" xlink:href="#path-10"></use>
+                            <use fill="url(#linearGradient-9)" xlink:href="#path-10"></use>
+                        </g>
+                        <ellipse id="椭圆形备份-2" fill="#FFC48E" fill-rule="nonzero" transform="translate(24.118344, 17.460487) rotate(45.000000) translate(-24.118344, -17.460487) " cx="24.1183436" cy="17.4604872" rx="8.43554043" ry="8.42532411"></ellipse>
+                        <g id="椭圆形备份-2" transform="translate(24.861740, 17.500240) rotate(45.000000) translate(-24.861740, -17.500240) translate(16.861740, 9.500240)" fill="#FFFFFF">
+                            <g id="path-8-link" transform="translate(-0.000000, 0.000000)">
+                                <ellipse id="path-8" cx="8.00329381" cy="7.94048718" rx="7.87847644" ry="7.87584644"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

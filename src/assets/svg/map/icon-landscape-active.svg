@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gongyuan</title>
+    <defs>
+        <linearGradient x1="50%" y1="18.4504059%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#9EA1FF" offset="0%"></stop>
+            <stop stop-color="#7483FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="71.6173109%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#56D6E5" offset="0%"></stop>
+            <stop stop-color="#2BACC7" offset="100%"></stop>
+        </linearGradient>
+        <path d="M22.5621062,9.96722786 C22.3195982,9.90059705 22.2534762,9.89142997 22.0397421,9.95060584 C21.008747,10.2767687 19.7719742,12.8665957 18.6518596,15.8672295 C16.4415306,9.89235737 13.5487277,3.34887614 11.2350377,2.56122 C11.0078249,2.47736077 10.7873333,2.41740017 10.4745616,2.5338971 C6.71352546,3.74666353 1,26 1,26 L30,26 C29.9280287,25.7561626 25.5413401,10.9727539 22.5621062,9.96722786 Z M30.2857143,29 C31.2285714,29 32,29.675 32,30.5 C32,31.325 31.2285714,32 30.2857143,32 L30.2857143,32 L1.71428572,32 C0.771428563,32 0,31.325 0,30.5 C0,29.675 0.771428563,29 1.71428572,29 L1.71428572,29 Z M19.2851779,0 C21.0259677,0 22.4357114,1.38840352 22.4391992,3.09644238 C22.4391992,4.80961764 21.0260041,6.19402617 19.2851779,6.19402617 C17.5403917,6.19402617 16.131302,4.80465957 16.131302,3.09647805 C16.131302,1.38269639 17.5446787,0 19.2851779,0 Z" id="path-3"></path>
+    </defs>
+    <g id="小程序/H5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分类索引" transform="translate(-217.000000, -25.000000)" fill-rule="nonzero">
+            <g id="形状" transform="translate(217.000000, 25.000000)">
+                <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

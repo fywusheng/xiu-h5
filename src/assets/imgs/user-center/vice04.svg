@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>137</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FDDD51" offset="0%"></stop>
+            <stop stop-color="#FFBC21" offset="100%"></stop>
+        </linearGradient>
+        <path d="M31.6389901,37.9999065 C31.1884386,37.9999065 30.6823659,37.8698692 30.2125775,37.6336169 L23.5097019,34.2614911 L16.7651933,37.6282368 C16.3381328,37.8569696 15.8491074,37.9772824 15.3505105,37.9772824 C14.7026942,37.9796127 14.0714067,37.7717153 13.5504005,37.3844649 C12.6066009,36.6724671 12.1229244,35.4385055 12.3460731,34.3151976 L13.7255037,27.1177593 L8.43837444,22.1605182 C7.62180921,21.3282413 7.30845318,20.1211387 7.61625255,18.9935597 L7.62695017,18.9570631 C8.01131397,17.798297 8.96474765,16.9864056 10.1210296,16.8306659 L17.4666384,15.4872146 L20.7636653,8.75155223 C21.2932291,7.68516019 22.3704987,7 23.5097332,7 C24.6980455,7 25.8031227,7.71092803 26.2664675,8.77090171 L29.5527967,15.4850437 L36.8994691,16.7769908 C38.0653043,16.9468675 39.0236151,17.7888716 39.3476613,18.9280547 C39.7102496,20.0476872 39.4140312,21.27728 38.5821242,22.1057733 L38.5639821,22.1240216 L33.2918045,27.1177593 L34.6242531,34.3280973 C34.8388312,35.4814833 34.3829622,36.6456295 33.4337826,37.3715652 C32.9256456,37.7832372 32.291465,38.0052279 31.6390213,37.9999065 L31.6389901,37.9999065 Z" id="path-2"></path>
+        <filter x="-29.7%" y="-17.7%" width="159.4%" height="161.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.742402754   0 0 0 0 0.106719226  0 0 0 0.350015707 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="我的" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="定稿（小程序版）" transform="translate(-50.000000, -531.000000)" fill-rule="nonzero">
+            <g id="编组-20" transform="translate(16.000000, 397.000000)">
+                <g id="形状" transform="translate(33.500000, 134.000000)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

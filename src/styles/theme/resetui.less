@@ -1,0 +1,913 @@
+/*
+ * @Description: 重置vant主题文件
+ * @Version: //
+ * @Autor: yjm
+ * @Date: 2020-07-17 18:13:52
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-03-24 18:21:45
+ */
+
+ @import "./theme-params.less";
+
+ // Color Palette
+ @black: #000;
+ @white: #fff;
+ @gray-1: @main_bg_color;
+ @gray-2: @second_bg_color;
+ @gray-3: @second_border_color;
+ @gray-4: @third_text_color; // icon
+ @gray-5: @border_color;
+ @gray-6: @third_text_color;
+ @gray-7: @second_text_color;
+ @gray-8: @main_text_color;
+ @red: @danger_color;
+ @blue: @main_color;
+ @orange: @warn_color;
+ @orange-dark: @dark_warn_color;
+ @orange-light: @light_warn_color;
+ @green: @success_color;
+ 
+ // Gradient Colors
+ @gradient-red: linear-gradient(to right, #ff6034, #ee0a24);
+ @gradient-orange: linear-gradient(to right, #ffd01e, #ff8917);
+ 
+ // Component Colors
+ @text-color: @gray-8;
+ @active-color: @gray-2;
+ @active-opacity: 0.7;
+ @disabled-opacity: 0.5;
+ @background-color: @gray-1;
+ @background-color-light: #fafafa;
+ @text-link-color: #576b95;
+ 
+ // Padding
+ @padding-base: @space_base;
+ @padding-xs: @space_xs_8;
+ @padding-sm: @space_sm_12;
+ @padding-md: @space_md_16;
+ @padding-lg: @space_lg_24;
+ @padding-xl: @space_xl_32;
+ 
+ // Font
+ @font-size-xs: @font_size_xs;
+ @font-size-sm: @font_size_sm;
+ @font-size-md: @font_size_md;
+ @font-size-lg: @font_size_lg;
+ @font-weight-bold: @font_weight_bold;
+ @line-height-xs: @line_height_xs;
+ @line-height-sm: @line_height_sm;
+ @line-height-md: @line_height_md;
+ @line-height-lg: @line_height_lg;
+ @base-font-family: @base_font_family;
+ @price-integer-font-family: @price_integer_font_family;
+ 
+ // Animation
+ @animation-duration-base: 0.3s;
+ @animation-duration-fast: 0.2s;
+ @animation-timing-function-enter: ease-out;
+ @animation-timing-function-leave: ease-in;
+ 
+ // Border
+ @border-color: @gray-5;
+ @border-width-base: @border_width_base;
+ @border-radius-sm: @border_radius_sm;
+ @border-radius-md: @border_radius_md;
+ @border-radius-lg: @border_radius_lg;
+ @border-radius-max: @border_radius_max;
+ 
+ // ActionSheet
+ @action-sheet-max-height: 80%;
+ @action-sheet-header-height: 25px * @ratio;
+ @action-sheet-header-font-size: @font-size-lg;
+ @action-sheet-description-color: @gray-6;
+ @action-sheet-description-font-size: @font-size-md;
+ @action-sheet-description-line-height: @line-height-md;
+ @action-sheet-item-background: @white;
+ @action-sheet-item-font-size: @font-size-lg;
+ @action-sheet-item-line-height: @line-height-lg;
+ @action-sheet-item-text-color: @text-color;
+ @action-sheet-item-disabled-text-color: @gray-5;
+ @action-sheet-subname-color: @gray-6;
+ @action-sheet-subname-font-size: @font-size-sm;
+ @action-sheet-subname-line-height: @line-height-sm;
+ @action-sheet-close-icon-size: 22px * @ratio;
+ @action-sheet-close-icon-color: @gray-5;
+ @action-sheet-close-icon-active-color: @gray-6;
+ @action-sheet-close-icon-padding: 0 @padding-md;
+ @action-sheet-cancel-text-color: @gray-7;
+ @action-sheet-cancel-padding-top: @padding-xs;
+ @action-sheet-cancel-padding-color: @background-color;
+ @action-sheet-loading-icon-size: 22px * @ratio;
+ 
+ // AddressEdit
+ @address-edit-padding: @padding-sm;
+ @address-edit-buttons-padding: @padding-xl @padding-base;
+ @address-edit-button-margin-bottom: @padding-sm;
+ @address-edit-detail-finish-color: @blue;
+ @address-edit-detail-finish-font-size: @font-size-sm;
+ 
+ // AddressList
+ @address-list-padding: 12px * @ratio 12px * @ratio 100px * @ratio;
+ @address-list-padding: @padding-sm @padding-sm 80px * @ratio;
+ @address-list-disabled-text-color: @gray-6;
+ @address-list-disabled-text-padding: @padding-base * 5 0 @padding-md;
+ @address-list-disabled-text-font-size: @font-size-md;
+ @address-list-disabled-text-line-height: @line-height-md;
+ @address-list-add-button-z-index: 999;
+ @address-list-item-padding: @padding-sm;
+ @address-list-item-text-color: @text-color;
+ @address-list-item-disabled-text-color: @gray-5;
+ @address-list-item-font-size: 13px * @ratio;
+ @address-list-item-line-height: @line-height-sm;
+ @address-list-item-radio-icon-color: @red;
+ @address-list-edit-icon-size: 20px * @ratio;
+ 
+ // Badge
+ @badge-size: 16px * @ratio;
+ @badge-color: @white;
+ @badge-padding: 0 3px * @ratio;
+ @badge-font-size: @font-size-sm;
+ @badge-font-weight: @font-weight-bold;
+ @badge-border-width: @border-width-base;
+ @badge-background-color: @red;
+ @badge-dot-color: @red;
+ @badge-dot-size: 8px * @ratio;
+ @badge-font-family: -apple-system-font, Helvetica Neue, Arial, sans-serif;
+ 
+ // Button
+ @button-mini-height: 24px * @ratio;
+ @button-mini-font-size: @font-size-xs;
+ @button-small-height: 28px * @ratio;
+ @button-small-font-size: @font-size-sm;
+ @button-normal-font-size: @font-size-md;
+ @button-large-height: 44px * @ratio;
+ @button-default-height: 44px * @ratio;
+ @button-default-line-height: 1.2;
+ @button-default-font-size: @font-size-lg;
+ @button-default-color: @text-color;
+ @button-default-background-color: @white;
+ @button-default-border-color: @border-color;
+ @button-primary-color: @white;
+ @button-primary-background-color: @green;
+ @button-primary-border-color: @green;
+ @button-info-color: @white;
+ @button-info-background-color: @blue;
+ @button-info-border-color: @blue;
+ @button-danger-color: @white;
+ @button-danger-background-color: @red;
+ @button-danger-border-color: @red;
+ @button-warning-color: @white;
+ @button-warning-background-color: @orange;
+ @button-warning-border-color: @orange;
+ @button-border-width: @border-width-base;
+ @button-border-radius: @border-radius-sm;
+ @button-round-border-radius: @border-radius-max;
+ @button-plain-background-color: @white;
+ @button-disabled-opacity: @disabled-opacity;
+ 
+ // Calendar
+ @calendar-background-color: @white;
+ @calendar-popup-height: 80%;
+ @calendar-header-box-shadow: 0 2px * @ratio 10px * @ratio
+   rgba(125, 126, 128, 0.16);
+ @calendar-header-title-height: 44px * @ratio;
+ @calendar-header-title-font-size: @font-size-lg;
+ @calendar-header-subtitle-font-size: @font-size-md;
+ @calendar-weekdays-height: 30px * @ratio;
+ @calendar-weekdays-font-size: @font-size-sm;
+ @calendar-month-title-font-size: @font-size-md;
+ @calendar-month-mark-color: fade(@gray-2, 80%);
+ @calendar-month-mark-font-size: 160px * @ratio;
+ @calendar-day-height: 64px * @ratio;
+ @calendar-day-font-size: @font-size-lg;
+ @calendar-range-edge-color: @white;
+ @calendar-range-edge-background-color: @main_color;
+ @calendar-range-middle-color: @main_color;
+ @calendar-range-middle-background-opacity: 0.1;
+ @calendar-selected-day-size: 54px * @ratio;
+ @calendar-selected-day-color: @white;
+ @calendar-info-font-size: @font-size-xs;
+ @calendar-info-line-height: 14px * @ratio;
+ @calendar-selected-day-background-color: @main_color;
+ @calendar-day-disabled-color: @gray-5;
+ @calendar-confirm-button-height: 36px * @ratio;
+ @calendar-confirm-button-margin: 7px * @ratio 0;
+ 
+ // Card
+ @card-padding: @padding-xs @padding-md;
+ @card-font-size: @font-size-sm;
+ @card-text-color: @text-color;
+ @card-background-color: @background-color-light;
+ @card-thumb-size: 88px * @ratio;
+ @card-thumb-border-radius: @border-radius-lg;
+ @card-title-line-height: 16px * @ratio;
+ @card-desc-color: @gray-7;
+ @card-desc-line-height: @line-height-md;
+ @card-price-color: @gray-8;
+ @card-origin-price-color: @gray-6;
+ @card-num-color: @gray-6;
+ @card-origin-price-font-size: @font-size-xs;
+ @card-price-font-size: @font-size-sm;
+ @card-price-integer-font-size: @font-size-lg;
+ @card-price-font-family: @price-integer-font-family;
+ 
+ // Cascader
+ @cascader-header-height: 48px * @ratio;
+ @cascader-title-font-size: @font-size-lg;
+ @cascader-title-line-height: 20px * @ratio;
+ @cascader-close-icon-size: 22px * @ratio;
+ @cascader-close-icon-color: @gray-5;
+ @cascader-close-icon-active-color: @gray-6;
+ @cascader-selected-icon-size: 18px * @ratio;
+ @cascader-tabs-height: 48px * @ratio;
+ @cascader-active-color: @main_color;
+ @cascader-options-height: 384px * @ratio;
+ @cascader-tab-color: @text-color;
+ @cascader-unselected-tab-color: @gray-6;
+ 
+ // Cell
+ @cell-font-size: @font-size-md;
+ @cell-line-height: 30px * @ratio;
+ @cell-vertical-padding: 9px * @ratio;
+ @cell-horizontal-padding: @padding-md;
+ @cell-text-color: @text-color;
+ @cell-background-color: @white;
+ @cell-border-color: @border-color;
+ @cell-active-color: @active-color;
+ @cell-required-color: @red;
+ @cell-label-color: @gray-6;
+ @cell-label-font-size: @font-size-sm;
+ @cell-label-line-height: 18px * @ratio;
+ @cell-label-margin-top: @padding-base;
+ @cell-value-color: @gray-6;
+ @cell-icon-size: 16px * @ratio;
+ @cell-right-icon-color: @gray-6;
+ @cell-large-vertical-padding: @padding-sm;
+ @cell-large-title-font-size: @font-size-lg;
+ @cell-large-label-font-size: @font-size-md;
+ 
+ // CellGroup
+ @cell-group-background-color: @white;
+ @cell-group-title-color: @gray-6;
+ @cell-group-title-padding: @padding-md @padding-md @padding-xs;
+ @cell-group-title-font-size: @font-size-md;
+ @cell-group-title-line-height: 16px * @ratio;
+ 
+ // Checkbox
+ @checkbox-size: 20px * @ratio;
+ @checkbox-border-color: @gray-5;
+ @checkbox-transition-duration: @animation-duration-fast;
+ @checkbox-label-margin: @padding-xs;
+ @checkbox-label-color: @text-color;
+ @checkbox-checked-icon-color: @main_color;
+ @checkbox-disabled-icon-color: @gray-5;
+ @checkbox-disabled-label-color: @gray-5;
+ @checkbox-disabled-background-color: @border-color;
+ 
+ // Circle
+ @circle-size: 100px * @ratio;
+ @circle-color: @blue;
+ @circle-layer-color: @white;
+ @circle-text-color: @text-color;
+ @circle-text-font-weight: @font-weight-bold;
+ @circle-text-font-size: @font-size-md;
+ @circle-text-line-height: @line-height-md;
+ 
+ // Collapse
+ @collapse-item-transition-duration: @animation-duration-base;
+ @collapse-item-content-padding: @padding-sm @padding-md;
+ @collapse-item-content-font-size: @font-size-md;
+ @collapse-item-content-line-height: 1.5;
+ @collapse-item-content-text-color: @gray-6;
+ @collapse-item-content-background-color: @white;
+ @collapse-item-title-disabled-color: @gray-5;
+ 
+ // ContactCard
+ @contact-card-padding: @padding-md;
+ @contact-card-add-icon-size: 40px * @ratio;
+ @contact-card-add-icon-color: @blue;
+ @contact-card-value-line-height: @line-height-md;
+ 
+ // ContactEdit
+ @contact-edit-padding: @padding-md;
+ @contact-edit-fields-radius: @border-radius-md;
+ @contact-edit-buttons-padding: @padding-xl 0;
+ @contact-edit-button-margin-bottom: @padding-sm;
+ @contact-edit-button-font-size: 16px * @ratio;
+ @contact-edit-field-label-width: 4.1em;
+ 
+ // ContactList
+ @contact-list-edit-icon-size: 16px * @ratio;
+ @contact-list-add-button-z-index: 999;
+ @contact-list-item-padding: @padding-md;
+ 
+ // CountDown
+ @count-down-text-color: @text-color;
+ @count-down-font-size: @font-size-md;
+ @count-down-line-height: @line-height-md;
+ 
+ // Coupon
+ @coupon-margin: 0 @padding-sm @padding-sm;
+ @coupon-content-height: 84px * @ratio;
+ @coupon-content-padding: 14px * @ratio 0;
+ @coupon-background-color: @white;
+ @coupon-active-background-color: @active-color;
+ @coupon-border-radius: @border-radius-lg;
+ @coupon-box-shadow: 0 0 4px * @ratio rgba(0, 0, 0, 0.1);
+ @coupon-head-width: 96px * @ratio;
+ @coupon-amount-color: @red;
+ @coupon-amount-font-size: 30px * @ratio;
+ @coupon-currency-font-size: 40%;
+ @coupon-name-font-size: @font-size-md;
+ @coupon-disabled-text-color: @gray-6;
+ @coupon-description-padding: @padding-xs @padding-md;
+ @coupon-description-border-color: @border-color;
+ 
+ // CouponCell
+ @coupon-cell-selected-text-color: @text-color;
+ 
+ // CouponList
+ @coupon-list-background-color: @background-color;
+ @coupon-list-field-padding: 5px * @ratio 0 5px * @ratio @padding-md;
+ @coupon-list-exchange-button-height: 32px * @ratio;
+ @coupon-list-close-button-height: 40px * @ratio;
+ @coupon-list-empty-image-size: 200px * @ratio;
+ @coupon-list-empty-tip-color: @gray-6;
+ @coupon-list-empty-tip-font-size: @font-size-md;
+ @coupon-list-empty-tip-line-height: @line-height-md;
+ 
+ // Dialog
+ @dialog-width: 270px * @ratio;
+ @dialog-small-screen-width: 90%;
+ @dialog-font-size: @font_size_lg_8;
+ @dialog-transition: @animation-duration-base;
+ @dialog-border-radius: 8px * @ratio;
+ @dialog-background-color: @white;
+ @dialog-header-font-weight: @font-weight-bold;
+ @dialog-header-line-height: 24px * @ratio;
+ @dialog-header-padding-top: 20px * @ratio;
+ @dialog-header-isolated-padding: @padding-md 0;
+ @dialog-message-padding: @padding-md;
+ @dialog-message-font-size: @font-size-md;
+ @dialog-message-line-height: 1.3;
+ @dialog-message-max-height: 60vh;
+ @dialog-button-height: 48px * @ratio;
+ @dialog-round-button-height: 36px * @ratio;
+ @dialog-has-title-message-text-color: @gray-7;
+ @dialog-has-title-message-padding-top: @padding-sm;
+ @dialog-confirm-button-text-color: @main_color;
+ 
+ // Divider
+ @divider-margin: @padding-md 0;
+ @divider-text-color: @gray-6;
+ @divider-font-size: @font-size-md;
+ @divider-line-height: 24px * @ratio;
+ @divider-border-color: @border-color;
+ @divider-content-padding: @padding-md;
+ @divider-content-left-width: 10%;
+ @divider-content-right-width: 10%;
+ 
+ // DropdownMenu
+ @dropdown-menu-height: 40px * @ratio;
+ @dropdown-menu-background-color: @white;
+ @dropdown-menu-box-shadow: 0 2px * @ratio 12px * @ratio fade(@gray-7, 12);
+ @dropdown-menu-title-font-size: 15px * @ratio;
+ @dropdown-menu-title-text-color: @text-color;
+ @dropdown-menu-title-active-text-color: @main_color;
+ @dropdown-menu-title-disabled-text-color: @gray-6;
+ @dropdown-menu-title-padding: 0 @padding-xs;
+ @dropdown-menu-title-line-height: @line-height-lg;
+ @dropdown-menu-option-active-color: @main_color;
+ @dropdown-menu-content-max-height: 80%;
+ @dropdown-item-z-index: 10;
+ 
+ // Empty
+ @empty-padding: @padding-xl 0;
+ @empty-image-size: 120px * @ratio;
+ @empty-description-margin-top: @padding-md;
+ @empty-description-padding: 0 60px * @ratio;
+ @empty-description-color: @second_text_color;
+ @empty-description-font-size: @font-size-md;
+ @empty-description-line-height: @line-height-md;
+ @empty-bottom-margin-top: 24px * @ratio;
+ 
+ // Field
+ @field-label-width: 6.2em;
+ @field-label-color: @gray-8;
+ @field-label-margin-right: @padding-sm;
+ @field-input-text-color: @main_text_color;
+ @field-input-error-text-color: @dark_danger_color;
+ @field-input-disabled-text-color: @gray-6;
+ @field-placeholder-text-color: @four_text_color;
+ @field-icon-size: 16px * @ratio;
+ @field-clear-icon-size: 16px * @ratio;
+ @field-clear-icon-color: @border_color;
+ @field-right-icon-color: @border_color;
+ @field-error-message-color: @dark_danger_color;
+ @field-error-message-text-color: 12px * @ratio;
+ @field-text-area-min-height: 60px * @ratio;
+ @field-word-limit-color: @gray-7;
+ @field-word-limit-font-size: @font-size-sm;
+ @field-word-limit-line-height: 16px * @ratio;
+ @field-disabled-text-color: @third_text_color;
+ 
+ // GridItem
+ @grid-item-content-padding: @padding-md @padding-xs;
+ @grid-item-content-background-color: @white;
+ @grid-item-content-active-color: @active-color;
+ @grid-item-icon-size: 28px * @ratio;
+ @grid-item-text-color: @gray-7;
+ @grid-item-text-font-size: @font-size-sm;
+ 
+ // GoodsAction
+ @goods-action-background-color: @white;
+ @goods-action-height: 50px * @ratio;
+ @goods-action-icon-width: 48px * @ratio;
+ @goods-action-icon-height: 100%;
+ @goods-action-icon-color: @text-color;
+ @goods-action-icon-size: 18px * @ratio;
+ @goods-action-icon-font-size: @font-size-xs;
+ @goods-action-icon-active-color: @active-color;
+ @goods-action-icon-text-color: @gray-7;
+ @goods-action-button-height: 40px * @ratio;
+ @goods-action-button-warning-color: @gradient-orange;
+ @goods-action-button-danger-color: @gradient-red;
+ 
+ // IndexAnchor
+ @index-anchor-z-index: 1;
+ @index-anchor-padding: 0 @padding-md;
+ @index-anchor-text-color: @text-color;
+ @index-anchor-font-weight: @font-weight-bold;
+ @index-anchor-font-size: @font-size-md;
+ @index-anchor-line-height: 32px * @ratio;
+ @index-anchor-background-color: transparent;
+ @index-anchor-sticky-text-color: @green;
+ @index-anchor-sticky-background-color: @white;
+ 
+ // IndexBar
+ @index-bar-sidebar-z-index: 2;
+ @index-bar-index-font-size: @font-size-xs;
+ @index-bar-index-line-height: 14px * @ratio;
+ @index-bar-index-active-color: @green;
+ 
+ // Info
+ @info-size: 16px * @ratio;
+ @info-color: @white;
+ @info-padding: 0 3px * @ratio;
+ @info-font-size: @font-size-sm;
+ @info-font-weight: @font-weight-bold;
+ @info-border-width: @border-width-base;
+ @info-background-color: @red;
+ @info-dot-color: @red;
+ @info-dot-size: 8px * @ratio;
+ @info-font-family: @price-integer-font-family;
+ 
+ // Image
+ @image-placeholder-text-color: @gray-6;
+ @image-placeholder-font-size: @font-size-md;
+ @image-placeholder-background-color: @background-color;
+ @image-loading-icon-size: 22px * @ratio;
+ @image-error-icon-size: 22px * @ratio;
+ @image-error-icon-size: 32px * @ratio;
+ @image-error-icon-color: @gray-4;
+ 
+ // ImagePreview
+ @image-preview-index-text-color: @white;
+ @image-preview-index-font-size: @font-size-md;
+ @image-preview-index-line-height: 22px * @ratio;
+ @image-preview-index-text-shadow: 0 1px * @ratio 1px * @ratio @gray-8;
+ @image-preview-overlay-background-color: rgba(0, 0, 0, 0.9);
+ @image-preview-close-icon-size: 22px * @ratio;
+ @image-preview-close-icon-color: @gray-5;
+ @image-preview-close-icon-active-color: @gray-6;
+ @image-preview-close-icon-margin: @padding-md;
+ @image-preview-close-icon-z-index: 1;
+ 
+ // List
+ @list-icon-margin-right: 5px * @ratio;
+ @list-text-color: @gray-6;
+ @list-text-font-size: @font-size-md;
+ @list-text-line-height: 50px * @ratio;
+ 
+ // Loading
+ @loading-text-color: @gray-6;
+ @loading-text-font-size: @font-size-md;
+ @loading-spinner-color: @gray-5;
+ @loading-spinner-size: 30px * @ratio;
+ @loading-spinner-animation-duration: 0.8s;
+ 
+ // NavBar
+ @nav-bar-height: 46px * @ratio;
+ @nav-bar-background-color: @white;
+ @nav-bar-arrow-size: 16px * @ratio;
+ @nav-bar-icon-color: @blue;
+ @nav-bar-text-color: @blue;
+ @nav-bar-title-font-size: @font-size-lg;
+ @nav-bar-title-text-color: @text-color;
+ @nav-bar-z-index: 1;
+ 
+ // NoticeBar
+ @notice-bar-height: 40px * @ratio;
+ @notice-bar-padding: 0 @padding-md;
+ @notice-bar-wrapable-padding: @padding-xs @padding-md;
+ @notice-bar-font-size: @font-size-md;
+ @notice-bar-line-height: 24px * @ratio;
+ @notice-bar-background-color: @orange-light;
+ @notice-bar-icon-size: 16px * @ratio;
+ @notice-bar-icon-min-width: 24px * @ratio;
+ 
+ // Notify
+ @notify-text-color: @white;
+ @notify-padding: @padding-xs @padding-md;
+ @notify-font-size: @font-size-md;
+ @notify-line-height: @line-height-md;
+ @notify-primary-background-color: @blue;
+ @notify-success-background-color: @green;
+ @notify-danger-background-color: @red;
+ @notify-warning-background-color: @orange;
+ 
+ // NumberKeyboard
+ @number-keyboard-background-color: @gray-2;
+ @number-keyboard-key-height: 48px * @ratio;
+ @number-keyboard-key-font-size: 28px * @ratio;
+ @number-keyboard-key-active-color: @gray-3;
+ @number-keyboard-delete-font-size: @font-size-lg;
+ @number-keyboard-title-color: @gray-7;
+ @number-keyboard-title-height: 34px * @ratio;
+ @number-keyboard-title-font-size: @font-size-lg;
+ @number-keyboard-close-padding: 0 @padding-md;
+ @number-keyboard-close-color: @text-link-color;
+ @number-keyboard-close-font-size: @font-size-md;
+ @number-keyboard-button-text-color: @white;
+ @number-keyboard-button-background-color: @blue;
+ @number-keyboard-cursor-color: @text-color;
+ @number-keyboard-cursor-width: 1px * @ratio;
+ @number-keyboard-cursor-height: 40%;
+ @number-keyboard-cursor-animation-duration: 1s;
+ @number-keyboard-z-index: 100;
+ 
+ // Overlay
+ @overlay-z-index: 1;
+ @overlay-background-color: rgba(0, 0, 0, 0.6);
+ 
+ // Pagination
+ @pagination-height: 40px * @ratio;
+ @pagination-font-size: @font-size-md;
+ @pagination-item-width: 36px * @ratio;
+ @pagination-item-default-color: @blue;
+ @pagination-item-disabled-color: @gray-7;
+ @pagination-item-disabled-background-color: @background-color;
+ @pagination-background-color: @white;
+ @pagination-desc-color: @gray-7;
+ @pagination-disabled-opacity: @disabled-opacity;
+ 
+ // Panel
+ @panel-background-color: @white;
+ @panel-header-value-color: @red;
+ @panel-footer-padding: @padding-xs @padding-md;
+ 
+ // PasswordInput
+ @password-input-height: 50px * @ratio;
+ @password-input-margin: 0 @padding-md;
+ @password-input-font-size: 20px * @ratio;
+ @password-input-border-radius: 6px * @ratio;
+ @password-input-background-color: @white;
+ @password-input-info-color: @gray-6;
+ @password-input-info-font-size: @font-size-md;
+ @password-input-error-info-color: @red;
+ @password-input-dot-size: 10px * @ratio;
+ @password-input-dot-color: @black;
+ 
+ // Picker
+ @picker-background-color: @white;
+ @picker-toolbar-height: 44px * @ratio;
+ @picker-title-font-size: @font-size-lg;
+ @picker-title-line-height: @line-height-md;
+ @picker-action-padding: 0 @padding-md;
+ @picker-action-font-size: @font-size-md;
+ @picker-confirm-action-color: @text-link-color;
+ @picker-cancel-action-color: @gray-6;
+ @picker-option-font-size: @font-size-lg;
+ @picker-option-text-color: @black;
+ @picker-option-disabled-opacity: 0.3;
+ @picker-loading-icon-color: @blue;
+ @picker-loading-mask-color: rgba(255, 255, 255, 0.9);
+ 
+ // Popover
+ @popover-arrow-size: 6px * @ratio;
+ @popover-border-radius: @border-radius-lg;
+ @popover-action-width: 128px * @ratio;
+ @popover-action-height: 44px * @ratio;
+ @popover-action-font-size: @font-size-md;
+ @popover-action-line-height: @line-height-md;
+ @popover-action-icon-size: 20px * @ratio;
+ @popover-light-text-color: @text-color;
+ @popover-light-background-color: @white;
+ @popover-light-action-disabled-text-color: @gray-5;
+ @popover-dark-text-color: @white;
+ @popover-dark-background-color: #4a4a4a;
+ @popover-dark-action-disabled-text-color: @gray-6;
+ 
+ // Popup
+ @popup-background-color: @white;
+ @popup-transition: transform @animation-duration-base;
+ @popup-round-border-radius: 8px * @ratio;
+ @popup-close-icon-size: 20px * @ratio;
+ @popup-close-icon-color: @gray-5;
+ @popup-close-icon-active-color: @gray-6;
+ @popup-close-icon-margin: 16px * @ratio;
+ @popup-close-icon-z-index: 1;
+ 
+ // Progress
+ @progress-height: 4px * @ratio;
+ @progress-color: @blue;
+ @progress-background-color: @gray-3;
+ @progress-pivot-padding: 0 5px * @ratio;
+ @progress-pivot-text-color: @white;
+ @progress-pivot-font-size: @font-size-xs;
+ @progress-pivot-line-height: 1.6;
+ @progress-pivot-background-color: @blue;
+ 
+ // PullRefresh
+ @pull-refresh-head-height: 50px * @ratio;
+ @pull-refresh-head-font-size: @font-size-md;
+ @pull-refresh-head-text-color: @gray-6;
+ 
+ // Radio
+ @radio-size: 20px * @ratio;
+ @radio-border-color: @gray-5;
+ @radio-transition-duration: @animation-duration-fast;
+ @radio-label-margin: @padding-xs;
+ @radio-label-color: @text-color;
+ @radio-checked-icon-color: @blue;
+ @radio-disabled-icon-color: @gray-5;
+ @radio-disabled-label-color: @gray-5;
+ @radio-disabled-background-color: @border-color;
+ 
+ // Rate
+ @rate-icon-size: 18px * @ratio;
+ @rate-icon-gutter: @padding-base;
+ @rate-icon-void-color: @gray-5;
+ @rate-icon-full-color: @main_color;
+ @rate-icon-disabled-color: @gray-5;
+ 
+ // ShareSheet
+ @share-sheet-header-padding: @padding-sm @padding-md @padding-base;
+ @share-sheet-title-color: @text-color;
+ @share-sheet-title-font-size: @font-size-md;
+ @share-sheet-title-line-height: @line-height-md;
+ @share-sheet-description-color: @gray-6;
+ @share-sheet-description-font-size: @font-size-sm;
+ @share-sheet-description-line-height: 16px * @ratio;
+ @share-sheet-icon-size: 48px * @ratio;
+ @share-sheet-option-name-color: @gray-7;
+ @share-sheet-option-name-font-size: @font-size-sm;
+ @share-sheet-option-description-color: @gray-5;
+ @share-sheet-option-description-font-size: @font-size-sm;
+ @share-sheet-cancel-button-font-size: @font-size-lg;
+ @share-sheet-cancel-button-height: 48px * @ratio;
+ @share-sheet-cancel-button-background: @white;
+ 
+ // Search
+ @search-padding: 10px * @ratio @padding-sm;
+ @search-background-color: @white;
+ @search-content-background-color: @gray-1;
+ @search-input-height: 34px * @ratio;
+ @search-label-padding: 0 5px * @ratio;
+ @search-label-color: @text-color;
+ @search-label-font-size: @font-size-md;
+ @search-left-icon-color: @gray-6;
+ @search-action-padding: 0 @padding-xs;
+ @search-action-text-color: @text-color;
+ @search-action-font-size: @font-size-md;
+ 
+ // Sidebar
+ @sidebar-width: 80px * @ratio;
+ @sidebar-font-size: @font-size-md;
+ @sidebar-line-height: @line-height-md;
+ @sidebar-text-color: @text-color;
+ @sidebar-disabled-text-color: @gray-5;
+ @sidebar-padding: 20px * @ratio @padding-sm;
+ @sidebar-active-color: @active-color;
+ @sidebar-background-color: @background-color;
+ @sidebar-selected-font-weight: @font-weight-bold;
+ @sidebar-selected-text-color: @text-color;
+ @sidebar-selected-border-width: 4px * @ratio;
+ @sidebar-selected-border-height: 16px * @ratio;
+ @sidebar-selected-border-color: @main_color;
+ @sidebar-selected-background-color: @white;
+ 
+ // Skeleton
+ @skeleton-row-height: 16px * @ratio;
+ @skeleton-row-background-color: @active-color;
+ @skeleton-row-margin-top: @padding-sm;
+ @skeleton-title-width: 40%;
+ @skeleton-avatar-size: 32px * @ratio;
+ @skeleton-avatar-background-color: @active-color;
+ @skeleton-animation-duration: 1.2s;
+ 
+ // Slider
+ @slider-active-background-color: @blue;
+ @slider-inactive-background-color: @gray-3;
+ @slider-disabled-opacity: @disabled-opacity;
+ @slider-bar-height: 2px * @ratio;
+ @slider-button-width: 11px * @ratio;
+ @slider-button-height: 11px * @ratio;
+ @slider-button-border-radius: 50%;
+ @slider-button-background-color: @white;
+ @slider-button-box-shadow: 0 1px * @ratio 2px * @ratio rgba(0, 0, 0, 0.5);
+ 
+ // Step
+ @step-text-color: @gray-6;
+ @step-active-color: @green;
+ @step-process-text-color: @text-color;
+ @step-font-size: @font-size-md;
+ @step-line-color: @border-color;
+ @step-finish-line-color: @green;
+ @step-finish-text-color: @text-color;
+ @step-icon-size: 12px * @ratio;
+ @step-circle-size: 5px * @ratio;
+ @step-circle-color: @gray-6;
+ @step-horizontal-title-font-size: @font-size-sm;
+ 
+ // Steps
+ @steps-background-color: @white;
+ 
+ // Sticky
+ @sticky-z-index: 99;
+ 
+ // Stepper
+ @stepper-background-color: @main_color;
+ @stepper-active-color: #e8e8e8;
+ @stepper-background-color: transparent;
+ @stepper-button-icon-color: @text-color;
+ @stepper-button-disabled-color: @background-color;
+ @stepper-button-disabled-icon-color: @gray-5;
+ @stepper-button-round-theme-color: @main_color;
+ @stepper-input-width: 32px * @ratio;
+ @stepper-input-height: 20px * @ratio;
+ @stepper-input-font-size: @font-size-md;
+ @stepper-input-line-height: normal;
+ @stepper-input-text-color: @text-color;
+ @stepper-input-disabled-text-color: @gray-5;
+ @stepper-input-disabled-background-color: @active-color;
+ @stepper-border-radius: @border-radius-md;
+ 
+ // SubmitBar
+ @submit-bar-height: 50px * @ratio;
+ @submit-bar-z-index: 100;
+ @submit-bar-background-color: @white;
+ @submit-bar-button-width: 110px * @ratio;
+ @submit-bar-price-color: @red;
+ @submit-bar-price-font-size: @font-size-md;
+ @submit-bar-currency-font-size: @font-size-md;
+ @submit-bar-text-color: @text-color;
+ @submit-bar-text-font-size: @font-size-md;
+ @submit-bar-tip-padding: @padding-xs @padding-sm;
+ @submit-bar-tip-font-size: @font-size-sm;
+ @submit-bar-tip-line-height: 1.5;
+ @submit-bar-tip-color: #f56723;
+ @submit-bar-tip-background-color: #fff7cc;
+ @submit-bar-tip-icon-size: 12px * @ratio;
+ @submit-bar-button-height: 40px * @ratio;
+ @submit-bar-padding: 0 @padding-md;
+ @submit-bar-price-integer-font-size: 20px * @ratio;
+ @submit-bar-price-font-family: @price-integer-font-family;
+ 
+ // Swipe
+ @swipe-indicator-size: 6px * @ratio;
+ @swipe-indicator-margin: @padding-sm;
+ @swipe-indicator-active-opacity: 1;
+ @swipe-indicator-inactive-opacity: 0.3;
+ @swipe-indicator-active-background-color: @blue;
+ @swipe-indicator-inactive-background-color: @border-color;
+ 
+ // Switch
+ @switch-size: 28px * @ratio;
+ @switch-width: 48px * @ratio;
+ @switch-height: 28px * @ratio;
+ @switch-node-size: 28px * @ratio;
+ @switch-node-z-index: 1;
+ @switch-node-background-color: @white;
+ @switch-node-box-shadow: 0 3px * @ratio 1px * @ratio 0 rgba(0, 0, 0, 0.05),
+   0 2px * @ratio 2px * @ratio 0 rgba(0, 0, 0, 0.1),
+   0 3px * @ratio 3px * @ratio 0 rgba(0, 0, 0, 0.05);
+ @switch-background-color: @four_text_color;
+ @switch-on-background-color: @blue;
+ @switch-transition-duration: @animation-duration-base;
+ @switch-disabled-opacity: @disabled-opacity;
+ @switch-border: @border-width-base solid rgba(0, 0, 0, 0.1);
+ 
+ // SwitchCell
+ @switch-cell-padding-top: @cell-vertical-padding - 1px * @ratio;
+ @switch-cell-padding-bottom: @cell-vertical-padding - 1px * @ratio;
+ @switch-cell-large-padding-top: @cell-large-vertical-padding - 1px * @ratio;
+ @switch-cell-large-padding-bottom: @cell-large-vertical-padding - 1px * @ratio;
+ 
+ // Tabbar
+ @tabbar-height: 50px * @ratio;
+ @tabbar-z-index: 1;
+ @tabbar-background-color: @white;
+ 
+ // TabbarItem
+ @tabbar-item-font-size: @font-size-sm;
+ @tabbar-item-text-color: @gray-7;
+ @tabbar-item-active-color: @blue;
+ @tabbar-item-active-background-color: @tabbar-background-color;
+ @tabbar-item-line-height: 1;
+ @tabbar-item-icon-size: 18px * @ratio;
+ @tabbar-item-margin-bottom: 5px * @ratio;
+ 
+ // Tab
+ @tab-text-color: @gray-8;
+ @tab-active-text-color: @main_color;
+ @tab-disabled-text-color: @gray-5;
+ @tab-font-size: @font-size-md;
+ @tab-line-height: @line-height-md;
+ 
+ // Tabs
+ @tabs-default-color: @main_color;
+ @tabs-line-height: 40px * @ratio;
+ @tabs-card-height: 30px * @ratio;
+ @tabs-nav-background-color: @white;
+ @tabs-bottom-bar-width: 40px * @ratio;
+ @tabs-bottom-bar-height: 2px * @ratio;
+ @tabs-bottom-bar-color: @tabs-default-color;
+ 
+ // Tag
+ @tag-padding: 0 @padding-base;
+ @tag-text-color: @white;
+ @tag-font-size: @font-size-sm;
+ @tag-border-radius: 2px * @ratio;
+ @tag-line-height: 16px * @ratio;
+ @tag-medium-padding: 2px * @ratio 6px * @ratio;
+ @tag-large-padding: @padding-base @padding-xs;
+ @tag-large-border-radius: @border-radius-md;
+ @tag-large-font-size: @font-size-md;
+ @tag-round-border-radius: @border-radius-max;
+ @tag-danger-color: @red;
+ @tag-primary-color: @blue;
+ @tag-success-color: @green;
+ @tag-warning-color: @orange;
+ @tag-default-color: @gray-6;
+ @tag-plain-background-color: @white;
+ 
+ // Toast
+ @toast-max-width: 70%;
+ @toast-font-size: @font-size-md;
+ @toast-text-color: @white;
+ @toast-loading-icon-color: @white;
+ @toast-line-height: 20px * @ratio;
+ @toast-border-radius: @border-radius-lg;
+ @toast-background-color: fade(@text-color, 88%);
+ @toast-icon-size: 40px * @ratio;
+ @toast-text-min-width: 96px * @ratio;
+ @toast-text-padding: @padding-xs @padding-sm;
+ @toast-default-padding: @padding-md;
+ @toast-default-width: 88px * @ratio;
+ @toast-default-min-height: 88px * @ratio;
+ @toast-position-top-distance: 50px * @ratio;
+ @toast-position-bottom-distance: 50px * @ratio;
+ 
+ // TreeSelect
+ @tree-select-font-size: @font-size-md;
+ @tree-select-nav-background-color: @background-color;
+ @tree-select-content-background-color: @white;
+ @tree-select-nav-item-padding: 14px * @ratio @padding-sm;
+ @tree-select-item-height: 48px * @ratio;
+ @tree-select-item-active-color: @main_color;
+ @tree-select-item-disabled-color: @gray-5;
+ @tree-select-item-selected-size: 16px * @ratio;
+ 
+ // Uploader
+ @uploader-size: 80px * @ratio;
+ @uploader-icon-size: 24px * @ratio;
+ @uploader-icon-color: @third_text_color;
+ @uploader-text-color: @third_text_color;
+ @uploader-text-font-size: @font-size-sm;
+ @uploader-upload-border-radius: 8px * @ratio;
+ @uploader-upload-background-color: @gray-1;
+ @uploader-upload-active-color: @active-color;
+ @uploader-delete-color: @gray-6;
+ @uploader-delete-icon-size: 18px * @ratio;
+ @uploader-delete-background-color: @white;
+ @uploader-file-background-color: @background-color;
+ @uploader-file-icon-size: 22px * @ratio;
+ @uploader-file-icon-color: @gray-7;
+ @uploader-file-name-padding: 0 @padding-base;
+ @uploader-file-name-margin-top: @padding-xs;
+ @uploader-file-name-font-size: @font_size_md;
+ @uploader-file-name-text-color: @gray-7;
+ @uploader-mask-background-color: fade(@gray-8, 88%);
+ @uploader-mask-icon-size: 22px * @ratio;
+ @uploader-mask-message-font-size: @font_size_md;
+ @uploader-mask-message-line-height: 14px * @ratio;
+ @uploader-loading-icon-size: 22px * @ratio;
+ @uploader-loading-icon-color: @white;
+ @uploader-disabled-opacity: @disabled-opacity;
+ 
+ // Sku
+ @sku-item-background-color: @background-color;
+ @sku-icon-gray-color: @gray-4;
+ @sku-upload-mask-color: rgba(50, 50, 51, 0.8);
+ 

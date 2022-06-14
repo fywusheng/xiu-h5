@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>社会服务</title>
+    <defs>
+        <linearGradient x1="76.1618791%" y1="89.4763029%" x2="22.8089866%" y2="27.5895717%" id="linearGradient-1">
+            <stop stop-color="#FF6F24" offset="0%"></stop>
+            <stop stop-color="#FFD43E" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="30" cy="30" r="30"></circle>
+        <filter x="-32.8%" y="-32.8%" width="165.6%" height="165.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.142277644 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="小程序" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="H5" transform="translate(-33.000000, -711.000000)">
+            <g id="编组-46" transform="translate(33.000000, 711.000000)">
+                <g id="椭圆形备份-9">
+                    <use fill="#F49C2E" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <g id="社会服务" filter="url(#filter-3)" transform="translate(14.000000, 15.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M20.7068989,31.2797651 L16.9990549,31.2797651 L16.9990549,23.6641751 C23.2115566,22.3507741 27.9173755,19.0918313 28.2953963,12.7180993 C28.2729064,12.1837397 28.9017628,11.1172145 30.1607805,11.1172145 C30.9142784,11.1172145 31.5273515,11.6508428 32,12.7180993 C31.6262994,19.2797651 26.9183205,24.9049653 20.7068989,26.7810998 L20.7068989,31.2797651 Z M0,12.5301655 C0.375867008,11.5466045 0.988042593,11.054824 1.83652675,11.054824 C2.68501091,11.054824 3.30806326,11.5466045 3.7056838,12.5301655 C4.08370462,18.9049653 8.78952341,22.3497064 15.0031052,23.4751735 L15.0031052,31.2808329 L11.2941812,31.2808329 L11.2941812,26.780032 C5.08275953,24.9038975 0.376940741,19.2797651 0,12.5301655 Z M21.2372792,0 C25.1640512,0 28.00054,2.79468497 28.00054,6.66585025 C28.00054,10.1071582 25.165303,13.3329251 22.982233,15.4834364 C21.4550855,16.9873247 19.2732673,18.4924377 16.0011659,20 C12.7278127,18.2768967 10.3281883,16.7730084 9.018847,15.4834364 C6.83828057,13.3329251 4.00054004,10.1071582 4.00054004,6.66585025 C4.00054004,2.79468497 6.83577707,0 10.7638008,0 C12.945619,0 14.6905728,0.859714677 16.0011659,2.58159328 C17.5283134,0.859714625 19.2732673,0 21.2372792,0 L21.2372792,0 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

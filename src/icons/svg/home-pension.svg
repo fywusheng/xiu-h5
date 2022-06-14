@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>养老金查询</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="92.1298574%" id="linearGradient-1">
+            <stop stop-color="#FFDA9B" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="67.3731211%" y1="43.6316083%" x2="73.0360423%" y2="58.2280171%" id="linearGradient-2">
+            <stop stop-color="#DA3136" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F98647" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="16.2796924%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FF8020" offset="0%"></stop>
+            <stop stop-color="#FF5318" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="7.10542736e-13%" id="linearGradient-4">
+            <stop stop-color="#F98B8F" offset="0.0184755068%"></stop>
+            <stop stop-color="#FFDEDF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="30.5887004%" y1="100%" x2="30.5887004%" y2="11.8808485%" id="linearGradient-5">
+            <stop stop-color="#FF905F" offset="0%"></stop>
+            <stop stop-color="#FDAF5D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="54.9958191%" x2="57.1096686%" y2="53.7332314%" id="linearGradient-6">
+            <stop stop-color="#FF979A" offset="0%"></stop>
+            <stop stop-color="#F97C80" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="7.10542736e-13%" id="linearGradient-7">
+            <stop stop-color="#F98B8F" offset="0.0184755068%"></stop>
+            <stop stop-color="#FFD1D2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页5版备份-12" transform="translate(-28.000000, -611.000000)" fill-rule="nonzero">
+            <g id="编组-4" transform="translate(16.000000, 557.000000)">
+                <g id="编组-28备份-2" transform="translate(12.000000, 53.000000)">
+                    <g id="养老金查询" transform="translate(0.000000, 1.000000)">
+                        <rect id="矩形备份-18" fill="#FFFFFF" opacity="0" x="0" y="0" width="65.6228571" height="65.6228571"></rect>
+                        <g id="编组-4" transform="translate(0.000000, 16.028571)">
+                            <g id="编组备份-3">
+                                <path d="M65.6228571,39.1285714 C65.6228571,30.2241633 50.9326801,23.0057143 32.8114286,23.0057143 C14.6901769,23.0057143 0,30.2241633 0,39.1285714 C0,48.0329795 65.6228571,48.0329795 65.6228571,39.1285714 Z" id="椭圆形备份" fill="url(#linearGradient-1)"></path>
+                                <g id="编组-2" transform="translate(10.560000, 0.000000)">
+                                    <polygon id="矩形" fill="url(#linearGradient-2)" points="0 25.08 9.96364041 25.08 19.9885714 33.1885714 10.1422494 32.8093026"></polygon>
+                                    <rect id="形状结合备份-3" fill="url(#linearGradient-3)" x="8.67428571" y="3.01714286" width="24.7028571" height="30.1714286" rx="1.44"></rect>
+                                    <circle id="椭圆形" fill="url(#linearGradient-4)" cx="22.44" cy="3.01714286" r="3.01714286"></circle>
+                                    <path d="M23.1942857,0 C24.8606077,0 26.2114286,1.35082087 26.2114286,3.01714286 L26.2114286,3.01714286 L33.9428571,3.01714286 C34.7760181,3.01714286 35.4514286,3.69255329 35.4514286,4.52571429 L35.4514286,31.68 C35.4514286,32.513161 34.7760181,33.1885714 33.9428571,33.1885714 L12.2571429,33.1885714 C11.4239819,33.1885714 10.7485714,32.513161 10.7485714,31.68 L10.7485714,4.52571429 C10.7485714,3.69255329 11.4239819,3.01714286 12.2571429,3.01714286 L20.1771429,3.01714286 C20.1771429,1.35082087 21.5279637,0 23.1942857,0 Z" id="形状结合" fill="url(#linearGradient-5)"></path>
+                                </g>
+                            </g>
+                            <path d="M44.6910805,30.6605367 C42.4288496,31.0331661 38.3746798,31.1844156 32.5285714,31.1142857 L43.611771,27.178843 C44.0665142,29.0248108 44.4262839,30.1853755 44.6910805,30.6605367 Z" id="路径-11" fill="url(#linearGradient-6)"></path>
+                            <path d="M23.0057143,6.03428571 L44.5028571,6.03428571 C44.3069184,15.2377419 44.2089491,20.7763955 44.2089491,22.6502464 C44.2089491,25.4610229 44.6285006,27.8261648 45.2117007,29.6720984 C42.7622093,30.4015176 37.7641255,31.1142857 33.7542857,31.1142857 C31.0810592,31.1142857 27.7674687,30.8912721 23.8135145,30.445245 C23.2749811,30.1805517 23.0057143,27.4831194 23.0057143,22.3529486 C23.0057143,17.2227777 23.0057143,11.7832234 23.0057143,6.03428571 Z" id="矩形" fill="#FFFFFF"></path>
+                            <rect id="矩形" fill="#FFDD94" x="25.4571429" y="9.24" width="17.16" height="1.13142857" rx="0.54"></rect>
+                            <rect id="矩形备份-2" fill="#FFDD94" x="25.4571429" y="11.88" width="17.16" height="1.13142857" rx="0.54"></rect>
+                            <rect id="矩形备份-5" fill="#FFDD94" x="25.4571429" y="14.52" width="9.24" height="1.13142857" rx="0.54"></rect>
+                            <rect id="矩形备份-6" fill="#FFDD94" x="25.4571429" y="26.0228571" width="3.77142857" height="1.13142857" rx="0.54"></rect>
+                            <circle id="椭圆形" fill="url(#linearGradient-7)" cx="33.7542857" cy="3.01714286" r="1.69714286"></circle>
+                            <circle id="椭圆形" fill="#FFFFFF" cx="33.5657143" cy="3.01714286" r="1.50857143"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

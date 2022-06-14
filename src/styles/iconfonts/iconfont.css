@@ -1,0 +1,81 @@
+/*
+ * @Description: iconfont
+ * @Version: v1.0.0
+ * @Autor: xyDideo
+ * @Date: 2020-06-30 16:26:12
+ * @LastEditors: xyDideo
+ * @LastEditTime: 2020-07-24 16:18:08
+ */ 
+@font-face {
+  font-family: 'iconfont';  /* project id 1850713 */
+  src: url('//at.alicdn.com/t/font_1850713_2niq8jn46vg.eot');
+  src: url('//at.alicdn.com/t/font_1850713_2niq8jn46vg.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1850713_2niq8jn46vg.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1850713_2niq8jn46vg.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1850713_2niq8jn46vg.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1850713_2niq8jn46vg.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* 打勾 */
+.icon-check:before {
+  content: "\e681";
+}
+/* 单选 - 默认 */
+.icon-radio-default:before {
+  content: "\e682";
+}
+/* 单选 -选择 */
+.icon-checkbox-checked:before {
+  content: "\e68b";
+}
+/* 多选 - 默认 */
+.icon-checkbox-default:before {
+  content: "\e68a";
+}
+/* 多选 -选择 */
+.icon-radio-choose:before {
+  content: "\e683";
+}
+/* 学位  学士帽 */
+.icon-study:before {
+  content: "\e684";
+}
+/* 学位  学士帽 */
+.icon-filter:before {
+  content: "\e685";
+}
+/* 右下角选择 */
+.icon-block-select:before {
+  content: "\e686";
+}
+/* 搜索 */
+.icon-search:before {
+  content: "\e687";
+}
+/* 刷新 */
+.icon-refresh:before {
+  content: "\e68c";
+}
+/* 加号 */
+.icon-plus:before {
+  content: "\e68d";
+}
+/* 删除 乘号 */
+.icon-close:before {
+  content: "\e68e";
+}
+

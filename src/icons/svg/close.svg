@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>上一条备份 2</title>
+    <g id="发现" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="播放（暂停）" transform="translate(-289.000000, -646.000000)" fill="#333333" fill-rule="nonzero">
+            <g id="播放控件备份" transform="translate(1.000000, 596.000000)">
+                <g id="上一条备份-3" transform="translate(288.000000, 50.000000)">
+                    <g id="编组-3" transform="translate(-0.000000, 0.000000)">
+                        <path d="M10,14.3002237 L10,0.699776345 C10,-0.23957374 9.32894737,-1 8.5,-1 C7.67105263,-1 7,-0.23957374 7,0.699776345 L7,14.3002237 C7,15.2395737 7.67105263,16 8.5,16 C9.32894737,16 10,15.2395737 10,14.3002237 Z" id="形状" transform="translate(8.500000, 7.500000) rotate(-45.000000) translate(-8.500000, -7.500000) "></path>
+                        <path d="M10,14.3002237 L10,0.699776345 C10,-0.23957374 9.32894737,-1 8.5,-1 C7.67105263,-1 7,-0.23957374 7,0.699776345 L7,14.3002237 C7,15.2395737 7.67105263,16 8.5,16 C9.32894737,16 10,15.2395737 10,14.3002237 Z" id="形状备份" transform="translate(8.500000, 7.500000) rotate(-315.000000) translate(-8.500000, -7.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

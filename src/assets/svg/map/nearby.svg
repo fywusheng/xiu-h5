@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="34px" viewBox="0 0 29 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fujin</title>
+    <defs>
+        <linearGradient x1="13.6245675%" y1="0%" x2="86.3754325%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF8800" offset="0%"></stop>
+            <stop stop-color="#FF5000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="地图1" transform="translate(-36.000000, -693.000000)" fill-rule="nonzero">
+            <g id="附近" transform="translate(36.000000, 693.000000)">
+                <path d="M14.5,0 C22.5185,0 29,6.57820233 29,14.6694167 C29,20.1026599 24.6440294,26.2235586 16.1547059,33.3950656 C15.2000247,34.2016448 13.7999753,34.2016448 12.8452941,33.3950656 C4.35597061,26.2235586 0,20.1026599 0,14.6694167 C0,6.57735234 6.48149999,0 14.5,0 Z" id="形状" fill="url(#linearGradient-1)"></path>
+                <path d="M14.5,5 C9.805875,5 6,9.02975 6,14 C6,18.97025 9.805875,23 14.5,23 C19.194125,23 23,18.97025 23,14 C23,9.02975 19.194125,5 14.5,5 Z" id="路径" fill="#FFFFFF"></path>
+                <path d="M14.5,9 C12.014875,9 10,11.014875 10,13.5 C10,15.985125 12.014875,18 14.5,18 C16.985125,18 19,15.985125 19,13.5 C19,11.014875 16.985125,9 14.5,9 Z" id="路径" fill="#FF8000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

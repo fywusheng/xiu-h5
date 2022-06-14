@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>checkbox / selected+normal</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Template" transform="translate(-1924.000000, -1435.000000)">
+            <g id="数据录入--Data-Entry" transform="translate(1786.000000, 637.000000)">
+                <g id="开关--Checkbox、Radio、Switch" transform="translate(3.000000, 698.000000)">
+                    <g id="编组-60" transform="translate(0.000000, 46.000000)">
+                        <g id="编组" transform="translate(135.000000, 54.000000)">
+                            <g id="checkbox-/-selected+disabled" transform="translate(1.000000, 1.000000)">
+                                <rect id="Container" x="0" y="0" width="19" height="19"></rect>
+                            </g>
+                            <g id="Checkbox_已选-Copy备份" transform="translate(2.000000, 2.000000)">
+                                <circle id="Oval-135-Copy" stroke="#4077F4" stroke-width="2" cx="8" cy="8" r="9"></circle>
+                                <circle id="Oval-135-Copy-2" fill="#4077F4" cx="8" cy="8" r="6"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

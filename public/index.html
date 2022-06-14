@@ -1,0 +1,46 @@
+<!--
+ * @Description: 
+ * @Version: 0.1
+ * @Autor: chenyt
+ * @Date: 2020-03-20 10:55:10
+ * @LastEditors: shn
+ * @LastEditTime: 2021-09-27 17:51:45
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="no-title" content="0">
+    <meta name="referrer" content="no-referrer">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <van-number-keyboard safe-area-inset-bottom />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- <script type="text/javascript" src="https://appx/web-view.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://quickapp/jssdk.webview.min.js" ></script> -->
+    <script>
+        if (navigator.userAgent.indexOf('AliApp') > -1) {
+            //支付宝
+          document.writeln('<script src="https://appx/web-view.min.js"' + '>' + '<' + '/' + 'script>');
+        }
+        if (navigator.userAgent.includes('quickapp')) {
+            //快应用
+            document.writeln('<script src="https://quickapp/jssdk.webview.min.js"' + '>' + '<' + '/' + 'script>');
+        }
+    </script>
+    
+</head>
+
+<body>
+    <noscript>
+        <strong>We're sorry but vue-cli4-tem doesn't work properly without JavaScript enabled. Please enable it to
+            continue.</strong>
+    </noscript>
+    <div id="app">
+    </div>
+</body>
+
+</html>

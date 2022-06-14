@@ -1,0 +1,182 @@
+/*
+ * @Description: 规范文档 XJ_C0.2_2019 调整:新增 / 删除请按照规范来【移动端与pc端不一致】
+ * @Version: v1.0.0
+ * @Autor: xyDideo
+ * @Date: 2020_06_01 09:16:39
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-03-28 14:49:36
+ */
+
+/*
+ * 01 标准色
+ * 规则：@{深浅}_{颜色}_{分类}_{序号} 变量统一采用下划线命名规范
+ * 分类：可为空
+ *   main：主色
+ *   font：字体色
+ *   line：线色
+ *   gradient: 渐变 (gradient1、gradient2)
+ *   second：辅色
+ *   third：次级辅色
+ * 颜色：不为空，常用颜色英文
+ * 深浅：可为空 或者 不透明的
+ *   darker：较深
+ *   dark：深
+ *   light：浅
+ *   lighter：较浅
+ */
+
+ @ratio: 2; //缩放倍数
+
+ // 主色:
+ @main_color: #FF5000; // 品牌蓝  主要应用于品牌宣传及部分文字等 pc端 主要用这个
+ @blue_color: #7c9fec; // 常规蓝  宜用于按钮、图标色等主要组件  移动端 主要用这个
+ 
+ @dark_blue_color: #285bcc; // 深蓝
+ @light_blue_color: #d9e5ff; // 浅蓝
+ @active_blue_color: #5d88e8;
+ 
+ @gradient_blue_color_1: #3ca0f6; // 渐变蓝 _ 1
+ @gradient_blue_color_2: #4077f4; // 渐变蓝 _ 2
+ 
+ // 场景 辅色
+ @dark_success_color: #1ba64f; // 深绿
+ @success_color: #28c663; // 常规绿 成功色
+ @light_success_color: #dff7e8; // 浅绿 用于成功等正确性提示配色（次要）
+ @active_success_color: #45c675;
+ 
+ @dark_warn_color: #e6a23c; // 深橙色
+ @warn_color: #fa7e00; // 常规橙 警告色
+ @light_warn_color: #fff7ed; // 浅橙 用于文字背景色（次要）
+ @active_warn_color: #fec235;
+ 
+ @dark_danger_color: #db4d4d; // 深红
+ @danger_color: #ff3b30; // 常规红 危险色
+ @light_danger_color: #fff1f1; // 浅红 用于警告或者错误提示（次要）
+ @active_danger_color: #f59191;
+ 
+ // 文本 颜色
+ @main_text_color: #303133; // 用于标题、正文等
+ @second_text_color: #666666; // 次级文本
+ @third_text_color: #999999; // 辅助文本
+ @four_text_color: #c0c4cc; // 禁用文本 / 字体图标颜色
+ @white_text_color: #ffffff; //深色按钮的文本颜色
+ 
+ // 边框 颜色
+ @main_border_color: @main_color; //用于边框悬停颜色等
+ @border_color: #cecece; //用于默认边框颜色、分割线等
+ @second_border_color: #eeeeee; //用于辅助边框等
+ 
+ // 背景 颜色
+ @main_bg_color: #f5f5f5; //用于默认背景色、下拉鼠标悬停背景、禁用状态背景等
+ @second_bg_color: #f5f6f6; //用于辅助背景色等
+ @white_bg_color: #fff;
+ @active_bg_color: #eaf5ff;
+ 
+ // space
+ @space_base: 4px * @ratio;
+ @space_xs_8: @space_base * 2; // 8 * @ratio
+ @space_sm_12: @space_base * 3; // 12 * @ratio
+ @space_md_16: @space_base * 4; // 16 * @ratio
+ @space_lg_24: @space_base * 6; // 24 * @ratio
+ @space_xl_32: @space_base * 8; // 32 * @ratio
+ @space_max_48: @space_base * 12; // 48 * @ratio
+ 
+ // Font
+ @font_size_xs: 12px * @ratio;
+ @font_size_sm: 14px * @ratio;
+ @font_size_md: 18px * @ratio;
+ @font_size_lg: 20px * @ratio;
+ @font_size_lg_8: 18px * @ratio;
+ @font_weight_bold: 500;
+ @line_height_xs: 14px * @ratio;
+ @line_height_sm: 18px * @ratio;
+ @line_height_md: 20px * @ratio;
+ @line_height_lg: 22px * @ratio;
+ @base_font_family: _apple_system, BlinkMacSystemFont, "Helvetica Neue",
+   Helvetica, Segoe UI, Arial, Roboto, "PingFang SC", "Hiragino Sans GB",
+   "Microsoft Yahei", sans_serif;
+ @price_integer_font_family: Avenir_Heavy, PingFang SC, Helvetica Neue, Arial,
+   sans_serif;
+ 
+ // Animation
+ @animation_duration_base: 0.3s;
+ @animation_duration_fast: 0.2s;
+ @animation_timing_function_enter: ease_out;
+ @animation_timing_function_leave: ease_in;
+ 
+ // Border
+ @border_width_base: 1px * @ratio;
+ @border_radius_sm: 2px * @ratio;
+ @border_radius_md: 4px * @ratio;
+ @border_radius_md_6: 6px * @ratio;
+ @border_radius_lg: 8px * @ratio;
+ @border_radius_max: 999px * @ratio;
+ 
+ // CSS Module 有个:export关键词，等同于es6的export，导出一个js对象
+ :export {
+   name: "less";
+   // 主色
+   main_color: @main_color;
+   gradient_blue_color_1: @gradient_blue_color_1;
+   gradient_blue_color_2: @gradient_blue_color_2;
+   dark_blue_color: @dark_blue_color;
+   light_blue_color: @light_blue_color;
+   ratio: @ratio;
+ 
+   // 场景
+   dark_success_color: @dark_success_color;
+   success_color: @success_color;
+   light_success_color: @light_success_color;
+ 
+   dark_danger_color: @dark_danger_color;
+   danger_color: @danger_color;
+   light_danger_color: @light_danger_color;
+ 
+   dark_warn_color: @dark_warn_color;
+   warn_color: @warn_color;
+   light_warn_color: @light_warn_color;
+ 
+   // 文本
+   main_text_color: @main_text_color;
+   second_text_color: @second_text_color;
+   third_text_color: @third_text_color;
+   four_text_color: @four_text_color;
+ 
+   // 背景
+   main_bg_color: @main_bg_color;
+   second_bg_color: @second_bg_color;
+   white_bg_color: @white_bg_color;
+   active_blue_color: @active_blue_color;
+   active_bg_color: @active_bg_color;
+ 
+   // 间距
+   space_base: @space_base;
+   space_xs_8: @space_xs_8;
+   space_sm_12: @space_sm_12;
+   space_md_16: @space_md_16;
+   space_lg_24: @space_lg_24;
+   space_xl_32: @space_xl_32;
+   // font
+   font_size_xs: @font_size_xs;
+   font_size_sm: @font_size_sm;
+   font_size_md: @font_size_md;
+   font_size_lg: @font_size_lg;
+   font_weight_bold: @font_weight_bold;
+   base_font_family: @base_font_family;
+   price_integer_font_family: @price_integer_font_family;
+   // animation
+   animation_duration_base: @animation_duration_base;
+   animation_duration_fast: @animation_duration_fast;
+   animation_timing_function_enter: @animation_timing_function_enter;
+   animation_timing_function_leave: @animation_timing_function_leave;
+   // border
+   border_width_base: @border_width_base;
+   border_radius_sm: @border_radius_sm;
+   border_radius_md: @border_radius_md;
+   border_radius_lg: @border_radius_lg;
+   border_radius_max: @border_radius_max;
+   main_border_color: @main_border_color;
+   border_color: @border_color;
+   second_border_color: @second_border_color;
+ }
+ 

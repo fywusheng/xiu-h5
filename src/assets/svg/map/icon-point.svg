@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="34px" viewBox="0 0 43 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/坐标</title>
+    <defs>
+        <filter x="-45.0%" y="-70.2%" width="193.3%" height="240.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.573907382   0 0 0 0 0.423573831   0 0 0 0 0.423573831  0 0 0 0.472820149 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="地图1" transform="translate(-123.000000, -271.000000)" fill="#FF5B11">
+            <g id="编组-2" transform="translate(123.000000, 271.000000)">
+                <g id="编组-80" filter="url(#filter-1)" transform="translate(6.000000, 6.000000)">
+                    <path d="M19.9166262,20 C25.4394737,20 29.9166262,15.5228475 29.9166262,10 C29.9166262,4.4771525 25.4394737,0 19.9166262,0 C16.2347278,0 9.59585245,3.33333333 0,10 C9.59585245,16.6666667 16.2347278,20 19.9166262,20 Z" id="椭圆形"></path>
+                    <circle id="椭圆形" stroke="#FFFFFF" stroke-width="2" cx="20.4780903" cy="9.95225818" r="9.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
